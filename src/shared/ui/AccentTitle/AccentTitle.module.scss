@@ -11,3 +11,12 @@
 .accent {
 	@include title-accent;
 }
+
+.line {
+	display: block;
+	white-space: nowrap;
+
+	@include respond-mobile {
+		white-space: normal;
+	}
+}

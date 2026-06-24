@@ -12,13 +12,42 @@ type AccentTitleProps = {
 };
 
 export const AccentTitle: React.FC<AccentTitleProps> = ({parts, className, as: Tag = 'h2', size = 'lg'}) => {
+	const lines: AccentTitlePart[][] = [];
+	let currentLine: AccentTitlePart[] = [];
+
+	parts.forEach((part, index) => {
+		if (index > 0 && part.breakBefore) {
+			lines.push(currentLine);
+			currentLine = [];
+		}
+
+		currentLine.push(part);
+	});
+
+	if (currentLine.length > 0) {
+		lines.push(currentLine);
+	}
+
 	return (
 		<Tag className={[styles.title, size === 'xl' && styles.titleXl, className].filter(Boolean).join(' ')}>
-			{parts.map((part, index) => (
-				<React.Fragment key={`${part.text}-${index}`}>
-					{part.breakBefore && <br />}
-					{part.accent ? <span className={styles.accent}>{part.text}</span> : part.text}
-				</React.Fragment>
+			{lines.map((lineParts, lineIndex) => (
+				<span
+					className={styles.line}
+					key={lineIndex}
+				>
+					{lineParts.map((part, partIndex) =>
+						part.accent ? (
+							<span
+								className={styles.accent}
+								key={`${lineIndex}-${partIndex}`}
+							>
+								{part.text}
+							</span>
+						) : (
+							<React.Fragment key={`${lineIndex}-${partIndex}`}>{part.text}</React.Fragment>
+						),
+					)}
+				</span>
 			))}
 		</Tag>
 	);

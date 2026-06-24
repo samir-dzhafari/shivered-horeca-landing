@@ -71,7 +71,10 @@ export const en: LandingContent = {
 	},
 	competitors: {
 		label: 'comparison',
-		title: 'We fire the alternatives',
+		titleParts: [
+			{text: 'We fire '},
+			{text: 'the alternatives', accent: true, breakBefore: true},
+		],
 		subtitle: 'How people usually solve the same problems — and why it does not work the way you need.',
 		items: [
 			{
@@ -132,7 +135,11 @@ export const en: LandingContent = {
 	},
 	howItWorks: {
 		label: 'how does it work?',
-		titleParts: [{text: 'While you slept,'}, {text: 'the bot took a booking', accent: true, breakBefore: true}],
+		titleParts: [
+			{text: 'While you slept, '},
+			{text: 'the bot ', breakBefore: true},
+			{text: 'took a booking', accent: true},
+		],
 		time: '11:47 PM · You are already home',
 		highlightBefore: 'In ',
 		highlightLink: 'Telegram',
@@ -154,7 +161,7 @@ export const en: LandingContent = {
 	technology: {
 		label: 'Technology',
 		titleParts: [
-			{text: 'You have tried'},
+			{text: 'You have tried '},
 			{text: 'ChatGPT.', breakBefore: true},
 			{text: 'This is different.', accent: true, breakBefore: true},
 		],
@@ -230,12 +237,10 @@ export const en: LandingContent = {
 	fit: {
 		label: 'Who fits the workshop',
 		titleParts: [
-			{text: 'You are in the '},
-			{text: 'right ', accent: true},
-			{text: 'place'},
-			{text: 'if at least one ', breakBefore: true},
-			{text: 'is about ', accent: true},
-			{text: 'you', accent: true},
+			{text: 'You are in the right place, '},
+			{text: 'if ', breakBefore: true},
+			{text: 'at least one', accent: true},
+			{text: ' is about you'},
 		],
 		cards: [
 			{
@@ -260,10 +265,8 @@ export const en: LandingContent = {
 	program: {
 		label: 'program',
 		titleParts: [
-			{text: 'Two '},
-			{text: 'days.', accent: true},
-			{text: 'Two ', breakBefore: true},
-			{text: 'products.', accent: true},
+			{text: 'Two days.'},
+			{text: 'Two products.', accent: true, breakBefore: true},
 		],
 		day1: [
 			{num: '1', title: 'Set up the AI agent', text: 'Your tool that writes code for you'},
@@ -284,8 +287,10 @@ export const en: LandingContent = {
 	},
 	format: {
 		label: 'Why this format works',
-		titleBefore: 'Four differences',
-		titleAccent: 'from everything else',
+		titleParts: [
+			{text: 'Four differences '},
+			{text: 'from everything else', accent: true, breakBefore: true},
+		],
 		items: [
 			{
 				num: '01',
@@ -335,7 +340,10 @@ export const en: LandingContent = {
 	},
 	faq: {
 		label: 'Questions',
-		titleParts: [{text: 'Doubts are'}, {text: 'normal', accent: true, breakBefore: true}],
+		titleParts: [
+			{text: 'Doubts are '},
+			{text: 'normal', accent: true, breakBefore: true},
+		],
 		items: [
 			{
 				question: 'I am not technical — can I handle it?',

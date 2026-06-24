@@ -18,7 +18,8 @@ export const Competitors: React.FC = () => {
 					label={competitors.label}
 					labelVariant="accent"
 					subtitle={competitors.subtitle}
-					title={competitors.title}
+					titleParts={competitors.titleParts}
+					titleSize="xl"
 					width="competitors"
 				/>
 

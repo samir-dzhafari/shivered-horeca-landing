@@ -65,10 +65,8 @@ export const Cta: React.FC = () => {
 							<br />
 							<span className={styles.titleLine2}>
 								{cta.titleLine2Before}
-								<span className={styles.titleAccent}>
-									{cta.titleLine2Accent}
-									{cta.titleLine2After}
-								</span>
+								<span className={styles.titleAccent}>{cta.titleLine2Accent}</span>
+								{cta.titleLine2After}
 							</span>
 						</h2>
 						<p className={styles.subtitle}>{cta.subtitle}</p>

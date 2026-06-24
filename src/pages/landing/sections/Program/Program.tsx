@@ -34,7 +34,6 @@ export const Program: React.FC = () => {
 					labelVariant="accent"
 					titleParts={program.titleParts}
 					titleSize="xl"
-					width="program"
 				/>
 
 				<Tabs

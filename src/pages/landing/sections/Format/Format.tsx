@@ -16,14 +16,8 @@ export const Format: React.FC = () => {
 				<SectionHeader
 					label={format.label}
 					labelVariant="accent"
-					title={
-						<>
-							{format.titleBefore}
-							<br />
-							<span className={styles.titleAccent}>{format.titleAccent}</span>
-						</>
-					}
-					width="format"
+					titleParts={format.titleParts}
+					titleSize="xl"
 				/>
 
 				<div className={styles.grid}>

@@ -20,7 +20,6 @@ export const Outcomes: React.FC = () => {
 					labelVariant="accent"
 					titleParts={outcomes.titleParts}
 					titleSize="xl"
-					width="outcomes"
 				/>
 
 				<div className={styles.grid}>

@@ -51,7 +51,10 @@ export const ru: LandingContent = {
 	},
 	competitors: {
 		label: 'сравнение',
-		title: 'Увольняем конкурентов',
+		titleParts: [
+			{text: 'Увольняем '},
+			{text: 'конкурентов', accent: true, breakBefore: true},
+		],
 		subtitle: 'Чем обычно решают те же задачи — и почему это работает не так, как нужно.',
 		items: COMPETITORS.map((item) => ({
 			...item,
@@ -68,7 +71,11 @@ export const ru: LandingContent = {
 	},
 	howItWorks: {
 		label: 'как это работает?',
-		titleParts: [{text: 'Пока вы спали,'}, {text: 'бот принял бронь', accent: true, breakBefore: true}],
+		titleParts: [
+			{text: 'Пока вы спали, '},
+			{text: 'бот ', breakBefore: true},
+			{text: 'принял бронь', accent: true},
+		],
 		time: '23:47 · Вы уже дома',
 		highlightBefore: 'В ',
 		highlightLink: 'Telegram',
@@ -90,7 +97,7 @@ export const ru: LandingContent = {
 	technology: {
 		label: 'Технология',
 		titleParts: [
-			{text: 'Вы уже пробовали'},
+			{text: 'Вы уже пробовали '},
 			{text: 'ChatGPT.', breakBefore: true},
 			{text: 'Это другое.', accent: true, breakBefore: true},
 		],
@@ -117,13 +124,10 @@ export const ru: LandingContent = {
 	fit: {
 		label: 'Кому подходит воркшоп',
 		titleParts: [
-			{text: 'Вы '},
-			{text: 'на своём ', accent: true},
-			{text: 'месте,'},
+			{text: 'Вы на своём месте, '},
 			{text: 'если ', breakBefore: true},
-			{text: 'хотя бы одно ', accent: true},
-			{text: 'про ', accent: true},
-			{text: 'вас', accent: true},
+			{text: 'хотя бы одно', accent: true},
+			{text: ' про вас'},
 		],
 		cards: [...FIT_CARDS],
 		noteLead: 'Техническое образование не нужно.',
@@ -133,18 +137,18 @@ export const ru: LandingContent = {
 	program: {
 		label: 'программа',
 		titleParts: [
-			{text: 'Два '},
-			{text: 'дня.', accent: true},
-			{text: 'Два ', breakBefore: true},
-			{text: 'продукта.', accent: true},
+			{text: 'Два дня.'},
+			{text: 'Два продукта.', accent: true, breakBefore: true},
 		],
 		day1: [...PROGRAM_DAY1],
 		day2: [...PROGRAM_DAY2],
 	},
 	format: {
 		label: 'Почему этот формат работает',
-		titleBefore: 'Четыре отличия',
-		titleAccent: 'от всего остального',
+		titleParts: [
+			{text: 'Четыре отличия '},
+			{text: 'от всего остального', accent: true, breakBefore: true},
+		],
 		items: [...FORMAT_DIFFERENCES],
 	},
 	courseComparison: {
@@ -159,7 +163,10 @@ export const ru: LandingContent = {
 	},
 	faq: {
 		label: 'Вопросы',
-		titleParts: [{text: 'Сомнения —'}, {text: 'это нормально', accent: true, breakBefore: true}],
+		titleParts: [
+			{text: 'Сомнения — '},
+			{text: 'это нормально', accent: true, breakBefore: true},
+		],
 		items: [...FAQ_ITEMS],
 	},
 	cta: {

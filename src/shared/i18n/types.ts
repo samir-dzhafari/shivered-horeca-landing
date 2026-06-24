@@ -123,7 +123,7 @@ export type LandingContent = {
 	};
 	competitors: {
 		label: string;
-		title: string;
+		titleParts: AccentTitlePart[];
 		subtitle: string;
 		items: CompetitorItem[];
 	};
@@ -187,8 +187,7 @@ export type LandingContent = {
 	};
 	format: {
 		label: string;
-		titleBefore: string;
-		titleAccent: string;
+		titleParts: AccentTitlePart[];
 		items: FormatDifference[];
 	};
 	courseComparison: {
