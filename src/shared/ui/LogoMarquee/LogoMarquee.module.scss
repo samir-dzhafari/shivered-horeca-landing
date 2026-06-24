@@ -1,0 +1,49 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.marquee {
+	@include full-bleed;
+	overflow: hidden;
+}
+
+.track {
+	display: flex;
+	width: max-content;
+	animation: logo-marquee 40s linear infinite;
+
+	@media (prefers-reduced-motion: reduce) {
+		animation: none;
+	}
+}
+
+.group {
+	display: flex;
+	flex-shrink: 0;
+	align-items: center;
+	gap: $space-partners;
+	padding-right: $space-partners;
+
+	@include respond-mobile {
+		gap: 32px;
+		padding-right: 32px;
+	}
+}
+
+.logo {
+	height: 40px;
+	width: auto;
+	flex-shrink: 0;
+	opacity: 0.6;
+	filter: grayscale(1);
+	object-fit: contain;
+}
+
+@keyframes logo-marquee {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+}

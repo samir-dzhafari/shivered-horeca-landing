@@ -1,0 +1,77 @@
+---
+description: Локальный кэш данных Figma — использовать вместо MCP, обновлять только по явной просьбе пользователя
+globs: ["**/*.{js,jsx,ts,tsx,css,scss,html}", "!**/node_modules/**"]
+alwaysApply: true
+---
+
+# Кэш Figma (локальный источник данных)
+
+## Зачем
+Figma MCP имеет лимит запросов. Все данные макета хранятся локально в `.cursor/figma-cache/`.  
+**Не вызывай Figma MCP** (`get_design_context`, `get_metadata`, `get_screenshot`, `get_variable_defs`, `download_assets` и т.д.), если нужные данные уже есть в кэше.
+
+## Источник макета
+- **Файл:** `Untitled`
+- **fileKey:** `Lkk1tYVccRwknQR1ScFwDe`
+- **URL:** https://www.figma.com/design/Lkk1tYVccRwknQR1ScFwDe/Untitled?node-id=1-74&t=Tq34e0sakS5OJdC0-4
+- **Корневой node-id лендинга:** `1:74`
+
+## Структура кэша
+
+```
+.cursor/figma-cache/
+  manifest.json              # реестр: что закэшировано, когда обновлено
+  pages/
+    1-74/                    # папка = node-id с дефисом
+      metadata.xml           # get_metadata
+      design-context.md      # get_design_context (код, стили, описание)
+      screenshot.png         # скриншот узла (если сохранён)
+  nodes/
+  <node-id>/                 # отдельные секции/компоненты по node-id
+      metadata.xml
+      design-context.md
+      screenshot.png
+  assets/                    # экспортированные SVG/PNG из макета
+  variables.json             # токены/переменные (если загружены)
+```
+
+Имена папок: `1:74` → `1-74` (двоеточие заменяется на дефис).
+
+## Алгоритм перед обращением к Figma
+
+1. Определи нужный `node-id` (из задачи, ТЗ или `manifest.json`).
+2. Проверь `.cursor/figma-cache/manifest.json` — есть ли запись для этого узла.
+3. Прочитай файлы из соответствующей папки (`metadata.xml`, `design-context.md`, `screenshot.png`, `assets/`).
+4. **Если данные найдены** — работай только с кэшем. Figma MCP **не вызывать**.
+5. **Если данных нет** — **не вызывай MCP автоматически**. Сообщи пользователю:
+   - какой `node-id` отсутствует;
+   - что нужно написать «обнови данные с фигмы» (или указать конкретный node-id) для загрузки.
+
+## Когда разрешён вызов Figma MCP
+
+Только при **явной просьбе пользователя** обновить данные. Триггеры (примеры):
+- «обнови данные с фигмы»
+- «обновить макет из Figma»
+- «перезагрузи кэш Figma»
+- «sync figma cache»
+
+При обновлении:
+1. Вызови нужные MCP-инструменты (`get_metadata`, `get_design_context`, при необходимости `get_screenshot`, `get_variable_defs`, `download_assets`).
+2. Сохрани ответы в `.cursor/figma-cache/` по структуре выше.
+3. Обнови `manifest.json` (node-id, дата, какие файлы сохранены).
+4. Скачанные ассеты положи в `.cursor/figma-cache/assets/` и/или в `src/assets/` проекта — по согласованию с задачей.
+5. Кратко отчитайся: что обновлено, какие node-id затронуты.
+
+Если пользователь просит обновить **конкретную секцию** — обновляй только её node-id, не весь файл.
+
+## Приоритет источников
+
+1. Локальный кэш `.cursor/figma-cache/` — **основной** источник при разработке.
+2. Figma MCP — **только** по явной команде на обновление кэша.
+3. Память/догадки — **запрещены**; если в кэше нет данных — спроси пользователя.
+
+## Связь с development-workflow
+
+Правило `development-workflow` требует пиксель-перфект по макету. Для сверки используй:
+- `design-context.md` и `screenshot.png` из кэша;
+- не трать MCP-запросы на повторное чтение уже закэшированных узлов.

@@ -1,0 +1,83 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.card {
+	position: relative;
+	width: 399px;
+	height: 499px;
+	border-radius: $radius-card-sm;
+	overflow: hidden;
+	background: linear-gradient(164deg, $color-expert-card-start 11.01%, $color-expert-card-end 173.5%);
+
+	@include respond-tablet {
+		width: 100%;
+		max-width: none;
+	}
+
+	@include respond-mobile {
+		height: auto;
+		aspect-ratio: 399 / 499;
+	}
+}
+
+.watermark {
+	position: absolute;
+	top: 220px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: rgba($color-blue-600, 0.08);
+	font-family: $font-unbounded;
+	font-size: 22px;
+	font-weight: 500;
+	color: rgba($color-blue-600, 0.2);
+	pointer-events: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	right: 16px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	height: 76px;
+	padding: 12px 16px;
+	border-radius: $radius-card-xs;
+	background: $color-white;
+}
+
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background: $color-blue-600;
+	font-family: $font-inter;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1;
+	color: $color-white;
+	flex-shrink: 0;
+}
+
+.name {
+	font-size: $text-body-md;
+	font-weight: 600;
+	line-height: 22px;
+	color: $color-neutral-800;
+}
+
+.role {
+	font-size: 15px;
+	line-height: 19px;
+	color: $color-neutral-500;
+}

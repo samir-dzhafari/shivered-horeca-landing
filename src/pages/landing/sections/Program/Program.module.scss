@@ -1,0 +1,54 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.tabs {
+	margin-bottom: $space-section;
+
+	@include respond-mobile {
+		margin-bottom: 32px;
+	}
+}
+
+.grid {
+	@include content-grid-format;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: $space-grid;
+
+	@include respond-tablet {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@include respond-mobile {
+		grid-template-columns: 1fr;
+	}
+}
+
+.stepCard {
+	min-height: 203px;
+
+	@include respond-tablet {
+		min-height: auto;
+	}
+}
+
+.stepHeader {
+	margin-bottom: 37px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.num {
+	margin-bottom: 16px;
+}
+
+.stepTitle {
+	@include card-title-md;
+	margin: 0;
+}
+
+.stepText {
+	@include card-body;
+}

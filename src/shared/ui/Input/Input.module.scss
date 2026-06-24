@@ -1,0 +1,38 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.input {
+	width: 100%;
+	height: $input-height;
+	padding: 0 16px;
+	border: none;
+	border-radius: $radius-pill;
+	background: $color-neutral-700;
+	font-family: $font-inter;
+	font-size: 15px;
+	color: $color-white;
+	outline: none;
+
+	@include respond-mobile {
+		font-size: 16px;
+	}
+
+	&::placeholder {
+		color: $color-neutral-400;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 2px $color-blue-600;
+	}
+}
+
+.error {
+	box-shadow: 0 0 0 2px $color-error;
+}
+
+.errorText {
+	display: block;
+	margin-top: 6px;
+	font-size: 13px;
+	color: $color-error;
+}

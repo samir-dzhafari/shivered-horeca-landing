@@ -1,0 +1,44 @@
+{
+  "name": "sheverev-horeca-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "tsc --noEmit && eslint src --ext ts,tsx --report-unused-disable-directives --color --fix --max-warnings 0",
+    "format": "prettier \"./src/**/*.{ts,tsx}\" --write",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots"
+  },
+  "dependencies": {
+    "mri": "^1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0",
+    "sass": "^1.85.1"
+  },
+  "overrides": {
+    "browserslist": "4.28.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@ssheverev/eslint-config": "^1.0.8",
+    "@ssheverev/eslint-react-config": "^1.0.11",
+    "@ssheverev/eslint-ts-config": "^0.0.2",
+    "@ssheverev/prettier-config": "^0.0.1",
+    "@ssheverev/stylelint-config": "^0.0.4",
+    "@ssheverev/ts-config": "^0.0.2",
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "browserslist": "4.28.2",
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

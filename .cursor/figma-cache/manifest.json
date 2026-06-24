@@ -1,0 +1,18 @@
+{
+  "fileKey": "Lkk1tYVccRwknQR1ScFwDe",
+  "fileName": "Untitled",
+  "figmaUrl": "https://www.figma.com/design/Lkk1tYVccRwknQR1ScFwDe/Untitled?node-id=1-74&t=Tq34e0sakS5OJdC0-4",
+  "lastFullSync": "2026-06-24T10:23:00+03:00",
+  "nodes": {
+    "1:74": {
+      "folder": "pages/1-74",
+      "files": ["metadata.xml", "screenshot.png"],
+      "updatedAt": "2026-06-24T10:23:00+03:00"
+    },
+    "1:98": {
+      "folder": "nodes/1-98",
+      "files": ["design-context.md"],
+      "updatedAt": "2026-06-24T10:24:00+03:00"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@use '../../../../styles/variables' as *;
+
+.inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.table {
+	max-width: $content-width-comparison-sm;
+	--comparison-columns: minmax(0, 1.9fr) minmax(80px, 133px) minmax(0, 1.2fr);
+}

@@ -1,0 +1,128 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.wrapper {
+	width: 100%;
+}
+
+.desktopTable {
+	min-width: 100%;
+	border: 1px solid $color-neutral-200;
+	border-radius: $radius-card-sm;
+	overflow: hidden;
+
+	@include respond-tablet {
+		display: none;
+	}
+}
+
+.header,
+.row {
+	display: grid;
+	grid-template-columns: var(--comparison-columns, 1fr 1fr 1fr);
+	align-items: center;
+	padding: 17px 12px;
+	font-size: $text-body-lg;
+	text-align: left;
+	min-width: 520px;
+}
+
+.header {
+	background: $color-neutral-50;
+	font-weight: 500;
+	color: $color-neutral-600;
+	border-bottom: 1px solid $color-neutral-200;
+}
+
+.row {
+	border-bottom: 1px solid $color-neutral-200;
+
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.label {
+	font-weight: 500;
+	color: $color-neutral-800;
+}
+
+.cross {
+	color: $color-neutral-400;
+	text-align: center;
+}
+
+.check {
+	color: $color-blue-600;
+	font-weight: 600;
+	text-align: center;
+}
+
+.other {
+	color: $color-neutral-500;
+}
+
+.ours {
+	color: $color-blue-600;
+	font-weight: 500;
+}
+
+.mobileCards {
+	display: none;
+	flex-direction: column;
+	gap: 12px;
+
+	@include respond-tablet {
+		display: flex;
+		gap: 16px;
+	}
+}
+
+.mobileCard {
+	padding: 16px;
+	border: 1px solid $color-neutral-200;
+	border-radius: $radius-card-xs;
+	background: $color-white;
+
+	@include respond-mobile {
+		padding: 14px;
+	}
+}
+
+.mobileCardTitle {
+	font-size: $text-body-md;
+	font-weight: 600;
+	color: $color-neutral-800;
+	margin: 0 0 12px;
+}
+
+.mobileCardRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 16px;
+	padding-block: 8px;
+	border-top: 1px solid $color-neutral-200;
+	font-size: $text-tag;
+
+	&:first-of-type {
+		border-top: none;
+		padding-top: 0;
+	}
+}
+
+.mobileCardLabel {
+	color: $color-neutral-500;
+	flex-shrink: 0;
+}
+
+.mobileCardRow .cross,
+.mobileCardRow .check {
+	text-align: right;
+}
+
+.mobileCardRow .other,
+.mobileCardRow .ours {
+	text-align: right;
+	max-width: 60%;
+}

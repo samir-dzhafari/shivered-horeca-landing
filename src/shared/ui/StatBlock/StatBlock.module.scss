@@ -1,0 +1,33 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.stat {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.value {
+	font-family: $font-instrument;
+	font-size: $text-stat;
+	font-weight: 400;
+	line-height: normal;
+	color: $color-neutral-800;
+
+	@include respond-tablet {
+		font-size: 36px;
+	}
+
+	@include respond-mobile {
+		font-size: 32px;
+	}
+}
+
+.label {
+	font-family: $font-inter;
+	font-size: $text-label;
+	font-weight: 400;
+	line-height: normal;
+	color: $color-neutral-400;
+	text-transform: uppercase;
+}

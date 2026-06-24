@@ -1,0 +1,13 @@
+@use '../../../styles/variables' as *;
+
+.card {
+	padding: $space-card;
+	border: 1px solid $color-neutral-200;
+	border-radius: $radius-card-sm;
+	background: $color-white;
+}
+
+.soft {
+	border: none;
+	background: $color-neutral-50;
+}

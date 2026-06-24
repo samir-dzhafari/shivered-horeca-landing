@@ -1,0 +1,29 @@
+@use '../../../styles/variables' as *;
+
+.badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	font-weight: 600;
+	color: $color-neutral-800;
+}
+
+.circle {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: $color-neutral-100;
+	font-size: 18px;
+}
+
+.index {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background: $color-neutral-100;
+	font-family: $font-unbounded;
+	font-size: 16px;
+	font-weight: 700;
+	color: $color-blue-600;
+}

@@ -1,0 +1,79 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.quote {
+	max-width: $content-width-audience;
+	margin-bottom: $space-section;
+	padding: 24px;
+	border: 1px dashed $color-neutral-200;
+	border-radius: $radius-card-sm;
+	background: $color-white;
+	font-style: normal;
+
+	@include respond-mobile {
+		margin-bottom: 32px;
+		padding: 20px 16px;
+	}
+
+	p {
+		@include body-lg;
+		margin-bottom: 24px;
+		font-style: italic;
+		color: $color-neutral-500;
+
+		@include respond-mobile {
+			margin-bottom: 16px;
+			font-size: $text-body-md;
+			line-height: 1.5;
+		}
+	}
+
+	cite {
+		font-size: $text-tag;
+		font-weight: 500;
+		color: $color-neutral-600;
+		font-style: normal;
+	}
+}
+
+.painPoints {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	max-width: $content-width-list;
+	margin-bottom: $space-section;
+
+	@include respond-mobile {
+		gap: 24px;
+		margin-bottom: 32px;
+	}
+}
+
+.painPoint {
+	display: flex;
+	gap: 76px;
+	align-items: flex-start;
+
+	@include respond-tablet {
+		gap: 32px;
+	}
+
+	@include respond-mobile {
+		gap: 16px;
+	}
+}
+
+.painTitle {
+	@include item-title;
+	margin-bottom: 16px;
+}
+
+.painText {
+	@include card-body;
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}

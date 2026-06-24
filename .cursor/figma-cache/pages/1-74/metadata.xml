@@ -1,0 +1,838 @@
+<frame id="1:74" name="Frame 1171276863" x="0" y="0" width="1920" height="11842">
+  <frame id="1:75" name="Frame 1171276865" x="0" y="0" width="1920" height="70">
+    <frame id="1:76" name="Frame 1171276926" x="48" y="23" width="290.02294921875" height="24">
+      <vector id="1:77" name="Sheverev" x="0.012313385494053364" y="5.670395851135254" width="129.02296259911364" height="12.659208593908858" />
+      <text id="1:78" name="/" x="141.02296447753906" y="0" width="8" height="24" />
+      <frame id="1:79" name="_ 1" x="161.02296447753906" y="5" width="129" height="14" />
+    </frame>
+    <frame id="1:90" name="Frame 1171276869" x="1612" y="13.5" width="260" height="43">
+      <frame id="1:91" name="Frame 1171276866" x="0" y="3.5" width="95" height="36">
+        <frame id="1:92" name="Frame 1171276868" x="8" y="4" width="44" height="28">
+          <text id="1:93" name="RU" x="12" y="5.5" width="20" height="17" />
+        </frame>
+        <text id="1:94" name="EN" x="64" y="9.5" width="19" height="17" />
+      </frame>
+      <frame id="1:95" name="Frame 1171276867" x="119" y="0" width="141" height="43">
+        <text id="1:96" name="Занять место" x="16" y="12" width="109" height="19" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1:97" name="Frame 1171276882" x="260" y="70" width="1400" height="11702">
+    <frame id="1:98" name="Frame 1171276870" x="0" y="0" width="1400" height="985">
+      <frame id="1:99" name="Frame 1171276881" x="136" y="44" width="1128" height="401">
+        <frame id="1:100" name="Frame 1171276867" x="348.5" y="0" width="431" height="41">
+          <text id="1:101" name="Офлайн-воркшоп · Ростов-на-Дону · Конец июля" x="16" y="12" width="399" height="17" />
+        </frame>
+        <text id="1:102" name="Создай AI-систему бронирований за два дня. Без программиста." x="0" y="85" width="1128" height="228" />
+        <text id="1:103" name="Два дня — два рабочих продукта. Telegram-бот для бронирований и собственный AI-инструмент под ваш бизнес. Без кода, без программиста." x="232" y="357" width="664" height="44" />
+      </frame>
+      <frame id="1:104" name="Frame 1171276871" x="423" y="489" width="554" height="90">
+        <frame id="1:105" name="Frame 1171276868" x="7" y="0" width="248" height="41">
+          <frame id="1:106" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:107" name="Telegram-бот к вечеру дня 1" x="36" y="12" width="196" height="17" />
+        </frame>
+        <frame id="1:108" name="Frame 1171276869" x="263" y="0" width="284" height="41">
+          <frame id="1:109" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:110" name="Собственный AI-продукт к дню 2" x="36" y="12" width="232" height="17" />
+        </frame>
+        <frame id="1:111" name="Frame 1171276870" x="118.5" y="49" width="317" height="41">
+          <frame id="1:112" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:113" name="Без кода и технического образования" x="36" y="12" width="265" height="17" />
+        </frame>
+      </frame>
+      <frame id="1:114" name="Frame 1171276880" x="-589.5" y="623" width="2579" height="147">
+        <frame id="1:115" name="Frame 1171276874" x="1098.5" y="0" width="382" height="52">
+          <frame id="1:116" name="Frame 1171276872" x="0" y="0" width="215" height="52">
+            <text id="1:117" name="Занять место" x="32" y="16.5" width="109" height="19" />
+            <frame id="1:118" name="arrow-sm-right-svgrepo-com (2) 1" x="149" y="9" width="34" height="34" />
+          </frame>
+          <frame id="1:120" name="Frame 1171276873" x="227" y="0" width="155" height="52">
+            <text id="1:121" name="Программа" x="32" y="16.5" width="91" height="19" />
+          </frame>
+        </frame>
+        <frame id="1:122" name="Frame 1171276927" x="0" y="96" width="2579" height="51">
+          <frame id="1:123" name="Frame" x="0" y="6" width="163" height="39" />
+          <frame id="1:131" name="Frame" x="215" y="0" width="152" height="51" />
+          <frame id="1:137" name="Frame" x="419" y="6" width="180" height="39" />
+          <frame id="1:143" name="Frame" x="651" y="8.5" width="133" height="34" />
+          <frame id="1:148" name="Frame" x="836" y="9.5" width="166" height="32" />
+          <frame id="1:150" name="Frame" x="1054" y="11" width="164" height="29" />
+          <frame id="1:157" name="Frame" x="1270" y="8.5" width="68" height="34" />
+          <frame id="1:159" name="Frame" x="1390" y="7" width="38" height="37" />
+          <frame id="1:166" name="Frame" x="1480" y="11.5" width="198" height="28" />
+          <frame id="1:168" name="Frame" x="1730" y="11.5" width="96" height="28" />
+          <frame id="1:171" name="Frame" x="1878" y="1.5" width="144" height="48" />
+          <frame id="1:176" name="Frame" x="2074" y="7.5" width="94" height="36" />
+          <frame id="1:182" name="Frame" x="2220" y="7.5" width="126" height="36" />
+          <frame id="1:191" name="Frame" x="2398" y="6.5" width="181" height="38" />
+        </frame>
+      </frame>
+      <frame id="1:193" name="Frame 1171276875" x="0" y="814" width="1400" height="143">
+        <frame id="1:194" name="Frame 1171276876" x="0" y="32" width="156" height="79">
+          <text id="1:195" name="2 дня" x="0" y="0" width="106" height="51" />
+          <text id="1:196" name="от идеи до продукта" x="0" y="63" width="156" height="16" />
+        </frame>
+        <frame id="1:197" name="Frame 1171276877" x="458.3333435058594" y="32" width="90" height="79">
+          <text id="1:198" name="≤30" x="0" y="0" width="77" height="51" />
+          <text id="1:199" name="участников" x="0" y="63" width="90" height="16" />
+        </frame>
+        <frame id="1:200" name="Frame 1171276878" x="850.6666870117188" y="32" width="102" height="79">
+          <text id="1:201" name="0" x="0" y="0" width="28" height="51" />
+          <text id="1:202" name="строчек кода" x="0" y="63" width="102" height="16" />
+        </frame>
+        <frame id="1:203" name="Frame 1171276879" x="1255" y="32" width="145" height="79">
+          <text id="1:204" name="1-ый" x="0" y="0" width="96" height="51" />
+          <text id="1:205" name="воркшоп в ростове" x="0" y="63" width="145" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:206" name="Frame 1171276871" x="0" y="985" width="1400" height="1015">
+      <frame id="1:207" name="Frame 1171276881" x="0" y="44" width="712" height="269">
+        <text id="1:208" name="ДЛЯ КОГО ЭТОТ ВОРКШОП?" x="0" y="0" width="171" height="15" />
+        <text id="1:209" name="Узнаете эту картину?" x="0" y="47" width="654" height="57" />
+        <frame id="1:210" name="Frame 1171276883" x="0" y="136" width="712" height="133">
+          <text id="1:211" name="“11 вечера. В WhatsApp — «Есть место на двоих?». Вы заняты. К утру они нашли другое заведение.”" x="24" y="24" width="664" height="44" />
+          <text id="1:212" name="Это не разовый случай — это система." x="24" y="92" width="269" height="17" />
+        </frame>
+      </frame>
+      <frame id="1:213" name="Frame 1171276875" x="0" y="357" width="867" height="529">
+        <frame id="1:214" name="Frame 1171276881" x="0" y="32" width="867" height="93">
+          <frame id="1:215" name="Frame 1171276586" x="0" y="13" width="35" height="35">
+            <frame id="1:216" name="Frame 1171276585" x="0" y="0" width="35" height="35">
+              <text id="1:217" name="1" x="13.5" y="5" width="8" height="25" />
+            </frame>
+          </frame>
+          <frame id="1:218" name="Frame 1171276886" x="111" y="0" width="756" height="61">
+            <text id="1:219" name="Пропущенный звонок — потерянный гость" x="0" y="0" width="511" height="29" />
+            <text id="1:220" name="Без вариантов. Каждый день. Пока не появится система, которая принимает брони без вас — в любое время суток." x="0" y="45" width="747" height="16" />
+          </frame>
+        </frame>
+        <frame id="1:221" name="Frame 1171276882" x="0" y="157" width="867" height="93">
+          <frame id="1:222" name="Frame 1171276586" x="0" y="13" width="35" height="35">
+            <frame id="1:223" name="Frame 1171276585" x="0" y="0" width="35" height="35">
+              <text id="1:224" name="2" x="11.5" y="5" width="12" height="25" />
+            </frame>
+          </frame>
+          <frame id="1:225" name="Frame 1171276887" x="111" y="0" width="756" height="61">
+            <text id="1:226" name="Блокнот + Excel + мессенджеры" x="0" y="0" width="387" height="29" />
+            <text id="1:227" name="Координация броней вперемешку. Кто-то всегда теряет. Человеческий фактор — не лечится уговорами." x="0" y="45" width="676" height="16" />
+          </frame>
+        </frame>
+        <frame id="1:228" name="Frame 1171276883" x="0" y="282" width="867" height="93">
+          <frame id="1:229" name="Frame 1171276586" x="0" y="13" width="35" height="35">
+            <frame id="1:230" name="Frame 1171276585" x="0" y="0" width="35" height="35">
+              <text id="1:231" name="3" x="11.5" y="5" width="12" height="25" />
+            </frame>
+          </frame>
+          <frame id="1:232" name="Frame 1171276888" x="111" y="0" width="756" height="61">
+            <text id="1:233" name="AI везде в разговорах — но не в бизнесе" x="0" y="0" width="484" height="29" />
+            <text id="1:234" name="Конкуренты говорят про AI на каждой встрече. Вы написали пару текстов в ChatGPT — и забыли. Что-то идёт не так." x="0" y="45" width="756" height="16" />
+          </frame>
+        </frame>
+        <frame id="1:235" name="Frame 1171276884" x="0" y="407" width="867" height="90">
+          <frame id="1:236" name="Frame 1171276586" x="0" y="27.5" width="35" height="35">
+            <frame id="1:237" name="Frame 1171276585" x="0" y="0" width="35" height="35">
+              <text id="1:238" name="4" x="11" y="5" width="13" height="25" />
+            </frame>
+          </frame>
+          <frame id="1:239" name="Frame 1171276889" x="111" y="0" width="756" height="90">
+            <text id="1:240" name="Готовые системы бронирования — дорого, долго, не под вас" x="0" y="0" width="672" height="58" />
+            <text id="1:241" name="Изучали — не то. Нанимали разработчика — месяц ожидания, потом ещё счёт за правки. Нужен другой путь." x="0" y="74" width="707" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1:242" name="Frame 1171276871" x="0" y="930" width="687" height="41">
+        <frame id="1:243" name="Frame 1171276868" x="0" y="0" width="129" height="41">
+          <frame id="1:244" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:245" name="Рестораны" x="36" y="12" width="77" height="17" />
+        </frame>
+        <frame id="1:246" name="Frame 1171276869" x="137" y="0" width="140" height="41">
+          <frame id="1:247" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:248" name="Кафе и бары" x="36" y="12" width="88" height="17" />
+        </frame>
+        <frame id="1:249" name="Frame 1171276870" x="285" y="0" width="95" height="41">
+          <frame id="1:250" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:251" name="Отели" x="36" y="12" width="43" height="17" />
+        </frame>
+        <frame id="1:252" name="Frame 1171276871" x="388" y="0" width="166" height="41">
+          <frame id="1:253" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:254" name="Банкетные залы" x="36" y="12" width="114" height="17" />
+        </frame>
+        <frame id="1:255" name="Frame 1171276872" x="562" y="0" width="125" height="41">
+          <frame id="1:256" name="Frame 1171276366" x="16" y="16.5" width="8" height="8" />
+          <text id="1:257" name="Кейтеринг" x="36" y="12" width="73" height="17" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:258" name="Frame 1171276883" x="0" y="2000" width="1400" height="1096">
+      <frame id="1:259" name="Frame 1171276881" x="0" y="44" width="390" height="243">
+        <text id="1:260" name="сравнение" x="0" y="0" width="74" height="15" />
+        <text id="1:261" name="Увольняем конкурентов" x="0" y="47" width="390" height="120" />
+        <text id="1:262" name="Чем обычно решают те же задачи — и почему это работает не так, как нужно." x="0" y="199" width="390" height="44" />
+      </frame>
+      <frame id="1:263" name="Frame 1171276875" x="0" y="331" width="867" height="721">
+        <frame id="1:264" name="Frame 1171276881" x="0" y="32" width="867" height="109">
+          <frame id="1:265" name="Frame 1171276886" x="0" y="0" width="867" height="77">
+            <frame id="1:266" name="Frame 1171276937" x="0" y="0" width="595" height="29">
+              <text id="1:267" name="Другие мастер-классы по AI для HoReCa" x="0" y="0" width="491" height="29" />
+              <frame id="1:268" name="Frame 1171276867" x="499" y="0" width="96" height="29">
+                <text id="1:269" name="уволен" x="12" y="6" width="50" height="17" />
+                <text id="1:270" name="🔥" x="70" y="7.5" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="1:271" name="Уйдёшь с промптами и AI-ассистентами внутри ChatGPT — умением пользоваться чужими инструментами. Это не ПО. Это не твоё. У нас ты создаёшь свой Telegram-бот — он принадлежит тебе с первого дня." x="0" y="45" width="867" height="32" />
+          </frame>
+        </frame>
+        <frame id="1:272" name="Frame 1171276885" x="0" y="173" width="867" height="93">
+          <frame id="1:273" name="Frame 1171276886" x="0" y="0" width="867" height="61">
+            <frame id="1:274" name="Frame 1171276937" x="0" y="0" width="428" height="29">
+              <text id="1:275" name="Двухмесячные курсы по AI" x="0" y="0" width="324" height="29" />
+              <frame id="1:276" name="Frame 1171276867" x="332" y="0" width="96" height="29">
+                <text id="1:277" name="уволен" x="12" y="6" width="50" height="17" />
+                <text id="1:278" name="🔥" x="70" y="7.5" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="1:279" name="Мотивация заканчивается раньше первого результата. Воркшоп — 2 дня. Ты уходишь с ботом, который уже работает в заведении." x="0" y="45" width="867" height="16" />
+          </frame>
+        </frame>
+        <frame id="1:280" name="Frame 1171276886" x="0" y="298" width="867" height="109">
+          <frame id="1:281" name="Frame 1171276886" x="0" y="0" width="867" height="77">
+            <frame id="1:282" name="Frame 1171276937" x="0" y="0" width="653" height="29">
+              <text id="1:283" name="YouTube / статьи / самостоятельное изучение" x="0" y="0" width="549" height="29" />
+              <frame id="1:284" name="Frame 1171276867" x="557" y="0" width="96" height="29">
+                <text id="1:285" name="уволен" x="12" y="6" width="50" height="17" />
+                <text id="1:286" name="🔥" x="70" y="7.5" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="1:287" name="Застрянешь на настройке инструментов или выберешь не тот подход. На воркшопе — структура, эксперты рядом, и ты не тратишь время на ошибки, которые мы уже сделали за тебя." x="0" y="45" width="867" height="32" />
+          </frame>
+        </frame>
+        <frame id="1:288" name="Frame 1171276887" x="0" y="439" width="867" height="109">
+          <frame id="1:289" name="Frame 1171276886" x="0" y="0" width="867" height="77">
+            <frame id="1:290" name="Frame 1171276937" x="0" y="0" width="448" height="29">
+              <text id="1:291" name="ChatGPT / Claude в браузере" x="0" y="0" width="344" height="29" />
+              <frame id="1:292" name="Frame 1171276867" x="352" y="0" width="96" height="29">
+                <text id="1:293" name="уволен" x="12" y="6" width="50" height="17" />
+                <text id="1:294" name="🔥" x="70" y="7.5" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="1:295" name="Браузерный чат не пишет код, не деплоит, не тестирует. Claude Code — AI-агент, который делает всё это. Разница — между пользователем инструмента и создателем продукта." x="0" y="45" width="867" height="32" />
+          </frame>
+        </frame>
+        <frame id="1:296" name="Frame 1171276888" x="0" y="580" width="867" height="109">
+          <frame id="1:297" name="Frame 1171276886" x="0" y="0" width="867" height="77">
+            <frame id="1:298" name="Frame 1171276937" x="0" y="0" width="360" height="29">
+              <text id="1:299" name="Нанять разработчика" x="0" y="0" width="256" height="29" />
+              <frame id="1:300" name="Frame 1171276867" x="264" y="0" width="96" height="29">
+                <text id="1:301" name="уволен" x="12" y="6" width="50" height="17" />
+                <text id="1:302" name="🔥" x="70" y="7.5" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="1:303" name="Каждая правка — новое ТЗ, новые сроки, новый счёт. После воркшопа: описал задачу — получил результат — за минуты, без посредников, навсегда." x="0" y="45" width="867" height="32" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:304" name="Frame 1171276874" x="0" y="3096" width="1400" height="537">
+      <frame id="1:305" name="Frame 1171276881" x="0" y="44" width="1340" height="449">
+        <text id="1:306" name="что вы получите?" x="0" y="0" width="125" height="15" />
+        <text id="1:307" name="Не знания о боте. Бот." x="0" y="47" width="665" height="57" />
+        <frame id="1:308" name="Frame 1171276915" x="0" y="136" width="1340" height="313">
+          <frame id="1:309" name="Frame 1171276910" x="0" y="0" width="670" height="313">
+            <frame id="1:310" name="Frame 1171276911" x="32" y="32" width="606" height="22">
+              <text id="1:311" name="День 1 — вечер" x="0" y="0" width="139" height="22" />
+              <vector id="1:312" name="Vector 1" x="171" y="11" width="435" height="0" />
+            </frame>
+            <text id="1:313" name="Telegram-бот для бронирований" x="32" y="86" width="358" height="27" />
+            <frame id="1:314" name="Frame 1171276916" x="32" y="145" width="524" height="136">
+              <frame id="1:315" name="Frame 1171276912" x="0" y="0" width="524" height="22">
+                <frame id="1:316" name="Frame 1171276366" x="0" y="7" width="8" height="8" />
+                <text id="1:317" name="Принимает брони 24/7, даже когда вы спите" x="20" y="0" width="504" height="22" />
+              </frame>
+              <frame id="1:318" name="Frame 1171276913" x="0" y="46" width="524" height="22">
+                <frame id="1:319" name="Frame 1171276366" x="0" y="7" width="8" height="8" />
+                <text id="1:320" name="Подтверждает гостю, уведомляет вас — мгновенно" x="20" y="0" width="504" height="22" />
+              </frame>
+              <frame id="1:321" name="Frame 1171276914" x="0" y="92" width="524" height="44">
+                <frame id="1:322" name="Frame 1171276366" x="0" y="18" width="8" height="8" />
+                <text id="1:323" name="Готов к запуску в вашем заведении прямо в эти выходные" x="20" y="0" width="504" height="44" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1:324" name="Frame 1171276911" x="670" y="0" width="670" height="313">
+            <frame id="1:325" name="Frame 1171276911" x="32" y="32" width="606" height="22">
+              <text id="1:326" name="День 2 — вечер" x="0" y="0" width="142" height="22" />
+              <vector id="1:327" name="Vector 1" x="174" y="11" width="432" height="0" />
+            </frame>
+            <text id="1:328" name="Ваш собственный AI-продукт" x="32" y="86" width="328" height="27" />
+            <frame id="1:329" name="Frame 1171276917" x="32" y="145" width="568" height="136">
+              <frame id="1:330" name="Frame 1171276912" x="0" y="0" width="568" height="44">
+                <frame id="1:331" name="Frame 1171276366" x="0" y="18" width="8" height="8" />
+                <text id="1:332" name="Под конкретную задачу вашего заведения — вы выбираете сами" x="20" y="0" width="548" height="44" />
+              </frame>
+              <frame id="1:333" name="Frame 1171276913" x="0" y="68" width="568" height="22">
+                <frame id="1:334" name="Frame 1171276366" x="0" y="7" width="8" height="8" />
+                <text id="1:335" name="Навык строить и менять такие продукты самостоятельно" x="20" y="0" width="548" height="22" />
+              </frame>
+              <frame id="1:336" name="Frame 1171276914" x="0" y="114" width="524" height="22">
+                <frame id="1:337" name="Frame 1171276366" x="0" y="7" width="8" height="8" />
+                <text id="1:338" name="Не зависеть от разработчика — никогда" x="20" y="0" width="504" height="22" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:339" name="Frame 1171276872" x="0" y="3633" width="1400" height="597">
+      <frame id="1:340" name="Frame 1171276881" x="0" y="44" width="665" height="509">
+        <text id="1:341" name="как это работает?" x="0" y="0" width="126" height="15" />
+        <text id="1:342" name="Пока вы спали, бот принял бронь" x="0" y="47" width="665" height="120" />
+        <frame id="1:343" name="Frame 1171276890" x="0" y="199" width="504" height="78">
+          <text id="1:344" name="23:47 · Вы уже дома" x="0" y="0" width="181" height="22" />
+          <text id="1:345" name="В Telegram — уведомление. Михаил забронировал стол. Бот всё сделал сам." x="0" y="34" width="504" height="44" />
+        </frame>
+        <text id="1:346" name="Гость написал боту. Бот проверил расписание — за 3 секунды. Подтвердил бронь, поставил напоминание, уведомил вас." x="0" y="309" width="665" height="44" />
+        <text id="1:347" name="Вы не делали ничего." x="0" y="385" width="191" height="22" />
+        <frame id="1:348" name="Frame 1171276900" x="0" y="439" width="343" height="70">
+          <text id="1:349" name="Этого бота — вы создадите сами. К вечеру первого дня воркшопа." x="16" y="16" width="311" height="38" />
+        </frame>
+      </frame>
+      <frame id="1:350" name="Frame 1171276891" x="809" y="175" width="478" height="378">
+        <frame id="1:351" name="Frame 1171276892" x="0" y="0" width="478" height="60">
+          <frame id="1:352" name="Frame 1171276895" x="18" y="12" width="202" height="36">
+            <frame id="1:353" name="Frame 1171276893" x="0" y="0" width="36" height="36">
+              <text id="1:354" name="🤖" x="10" y="10" width="16" height="16" />
+            </frame>
+            <frame id="1:355" name="Frame 1171276894" x="46" y="0" width="156" height="36">
+              <text id="1:356" name="Бот бронирований" x="0" y="0" width="129" height="17" />
+              <text id="1:357" name="онлайн · принимает брони" x="0" y="21" width="156" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1:358" name="Frame 1171276897" x="0" y="60" width="478" height="318">
+          <frame id="1:359" name="Frame 1171276901" x="18" y="18" width="442" height="155">
+            <frame id="1:360" name="Frame 1171276898" x="143" y="0" width="299" height="62">
+              <frame id="1:361" name="Frame 1171276896" x="0" y="0" width="299" height="62">
+                <text id="1:362" name="Добрый вечер! Хочу забронировать столик на двоих завтра в 19:00" x="14" y="14" width="271" height="34" />
+              </frame>
+            </frame>
+            <frame id="1:363" name="Frame 1171276899" x="0" y="72" width="442" height="60">
+              <frame id="1:364" name="Frame 1171276897" x="0" y="0" width="318" height="60">
+                <text id="1:365" name="✅ Готово, Михаил! Столик на двоих, 19:00 завтра — подтверждено. Напомню в 18:00." x="14" y="14" width="290" height="32" />
+              </frame>
+            </frame>
+            <text id="1:366" name="23:47 · 3 сек" x="374" y="142" width="68" height="13" />
+          </frame>
+          <frame id="1:367" name="Frame 1171276900" x="18" y="240" width="442" height="60">
+            <text id="1:368" name="🔔" x="14" y="22" width="16" height="16" />
+            <text id="1:369" name="Новая бронь — завтра, стол на двоих, 19:00. Михаил подтверждён." x="46" y="14" width="382" height="32" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:370" name="Frame 1171276875" x="0" y="4230" width="1400" height="622">
+      <frame id="1:371" name="Frame 1171276881" x="0" y="44" width="1400" height="534">
+        <text id="1:372" name="Технология" x="658" y="0" width="84" height="15" />
+        <text id="1:373" name="Вы уже пробовали ChatGPT. Это другое." x="367.5" y="59" width="665" height="171" />
+        <frame id="1:374" name="Frame 1171276918" x="353" y="274" width="694" height="260">
+          <frame id="1:375" name="Managment" x="0" y="0" width="694" height="52">
+            <text id="1:376" name="Чат в браузере" x="346" y="17" width="109" height="18" />
+            <text id="1:377" name="AI-агент (то, что мы строим)" x="479" y="17" width="203" height="18" />
+          </frame>
+          <frame id="1:378" name="Managment" x="0" y="52" width="694" height="52">
+            <text id="1:379" name="Пишет и деплоит код" x="12" y="16" width="152" height="18" />
+            <frame id="1:380" name="Frame 1171276919" x="346" y="16" width="336" height="19">
+              <text id="1:381" name="✗" x="0" y="0" width="109" height="19" />
+              <text id="1:382" name="✓" x="133" y="0" width="203" height="19" />
+            </frame>
+          </frame>
+          <frame id="1:383" name="Managment" x="0" y="104" width="694" height="52">
+            <text id="1:384" name="Работает без вас 24/7" x="12" y="16" width="157" height="18" />
+            <frame id="1:385" name="Frame 1171276919" x="346" y="16" width="336" height="19">
+              <text id="1:386" name="✗" x="0" y="0" width="109" height="19" />
+              <text id="1:387" name="✓" x="133" y="0" width="203" height="19" />
+            </frame>
+          </frame>
+          <frame id="1:388" name="Managment" x="0" y="156" width="694" height="52">
+            <text id="1:389" name="Помнит контекст вашего бизнеса" x="12" y="16" width="238" height="18" />
+            <frame id="1:390" name="Frame 1171276919" x="346" y="16" width="336" height="19">
+              <text id="1:391" name="✗" x="0" y="0" width="109" height="19" />
+              <text id="1:392" name="✓" x="133" y="0" width="203" height="19" />
+            </frame>
+          </frame>
+          <frame id="1:393" name="Managment" x="0" y="208" width="694" height="52">
+            <text id="1:394" name="Принадлежит вам, а не подписке" x="12" y="16" width="238" height="18" />
+            <frame id="1:395" name="Frame 1171276919" x="346" y="16" width="336" height="19">
+              <text id="1:396" name="✗" x="0" y="0" width="109" height="19" />
+              <text id="1:397" name="✓" x="133" y="0" width="203" height="19" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:398" name="Frame 1171276873" x="0" y="4852" width="1400" height="1335">
+      <frame id="1:399" name="Frame 1171276881" x="0" y="44" width="902" height="1247">
+        <frame id="1:400" name="Frame 1171276905" x="0" y="0" width="651" height="161">
+          <text id="1:401" name="эксперты" x="0" y="0" width="68" height="15" />
+          <text id="1:402" name="Строим AI-продукты. Каждый день." x="0" y="47" width="651" height="114" />
+        </frame>
+        <frame id="1:403" name="Frame 1171276907" x="0" y="205" width="902" height="499">
+          <frame id="1:404" name="Frame 1171276900" x="0" y="0" width="399" height="499">
+            <frame id="1:405" name="Frame 1171276902" x="16" y="407" width="367" height="76">
+              <frame id="1:406" name="Frame 1171276903" x="16" y="12" width="52" height="52">
+                <text id="1:407" name="СШ" x="10.5" y="15" width="31" height="22" />
+              </frame>
+              <frame id="1:408" name="Frame 1171276904" x="84" y="13.5" width="247" height="49">
+                <text id="1:409" name="Станислав Шеверев" x="0" y="0" width="182" height="22" />
+                <text id="1:410" name="IT-предприниматель, Сколково" x="0" y="30" width="247" height="19" />
+              </frame>
+            </frame>
+            <frame id="1:411" name="Frame 1171276903" x="170" y="220" width="60" height="60">
+              <text id="1:412" name="СШ" x="14" y="19" width="32" height="22" />
+            </frame>
+          </frame>
+          <frame id="1:413" name="Frame 1171276906" x="443" y="0" width="459" height="499">
+            <frame id="1:414" name="Frame 1171276909" x="0" y="0" width="459" height="393">
+              <text id="1:415" name="ОСНОВАТЕЛЬ" x="0" y="0" width="84" height="15" />
+              <text id="1:416" name="Станислав Шеверев" x="0" y="47" width="459" height="86" />
+              <text id="1:417" name="Основатель компании по разработке AI-продуктов. Внедрял AI в реальных федеральных проектах — не в учебных кейсах." x="0" y="165" width="459" height="57" />
+              <frame id="1:418" name="Frame 1171276908" x="0" y="254" width="421" height="66">
+                <text id="1:419" name="&quot;На воркшоп я вынес инструменты, которыми пользуюсь каждый день. Ничего, что я сам не проверил в проде.&quot;" x="20" y="6" width="401" height="54" />
+              </frame>
+              <frame id="1:420" name="Frame 1171276871" x="0" y="352" width="418" height="41">
+                <frame id="1:421" name="Frame 1171276868" x="0" y="0" width="108" height="41">
+                  <text id="1:422" name="Норникель" x="16" y="12" width="76" height="17" />
+                </frame>
+                <frame id="1:423" name="Frame 1171276869" x="116" y="0" width="80" height="41">
+                  <text id="1:424" name="СИБУР" x="16" y="12" width="48" height="17" />
+                </frame>
+                <frame id="1:425" name="Frame 1171276870" x="204" y="0" width="64" height="41">
+                  <text id="1:426" name="МТС" x="16" y="12" width="32" height="17" />
+                </frame>
+                <frame id="1:427" name="Frame 1171276871" x="276" y="0" width="69" height="41">
+                  <text id="1:428" name="BASF" x="16" y="12" width="37" height="17" />
+                </frame>
+                <frame id="1:429" name="Frame 1171276872" x="353" y="0" width="65" height="41">
+                  <text id="1:430" name="ФНП" x="16" y="12" width="33" height="17" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1:431" name="Frame 1171276872" x="0" y="447" width="297" height="52">
+              <text id="1:432" name="Записаться на воркшоп" x="32" y="16.5" width="191" height="19" />
+              <frame id="1:433" name="arrow-sm-right-svgrepo-com (2) 1" x="231" y="9" width="34" height="34" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1:435" name="Frame 1171276908" x="0" y="748" width="902" height="499">
+          <frame id="1:436" name="Frame 1171276906" x="0" y="0" width="459" height="499">
+            <frame id="1:437" name="Frame 1171276909" x="0" y="0" width="459" height="393">
+              <text id="1:438" name="Руководитель AI-направления" x="0" y="0" width="216" height="15" />
+              <text id="1:439" name="Никита Пожидаев" x="0" y="47" width="459" height="86" />
+              <text id="1:440" name="Строит AI-агентов и автоматизирует бизнес-процессы. Специализируется на корпоративных AI-системах и современных языковых моделях." x="0" y="165" width="459" height="57" />
+              <frame id="1:441" name="Frame 1171276908" x="0" y="254" width="421" height="66">
+                <text id="1:442" name="&quot;Я покажу не как работает AI в теории — а как заставить его работать на ваши конкретные задачи.&quot;" x="20" y="15" width="401" height="36" />
+              </frame>
+              <frame id="1:443" name="Frame 1171276871" x="0" y="352" width="459" height="41">
+                <frame id="1:444" name="Frame 1171276868" x="0" y="0" width="81" height="41">
+                  <text id="1:445" name="Мос ру" x="16" y="12" width="49" height="17" />
+                </frame>
+                <frame id="1:446" name="Frame 1171276869" x="89" y="0" width="64" height="41">
+                  <text id="1:447" name="МТС" x="16" y="12" width="32" height="17" />
+                </frame>
+                <frame id="1:448" name="Frame 1171276873" x="161" y="0" width="117" height="41">
+                  <text id="1:449" name="Home Credit" x="16" y="12" width="85" height="17" />
+                </frame>
+                <frame id="1:450" name="Frame 1171276871" x="286" y="0" width="68" height="41">
+                  <text id="1:451" name="Сбер" x="16" y="12" width="36" height="17" />
+                </frame>
+                <frame id="1:452" name="Frame 1171276872" x="362" y="0" width="71" height="41">
+                  <text id="1:453" name="KODE" x="16" y="12" width="39" height="17" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1:454" name="Frame 1171276872" x="0" y="447" width="297" height="52">
+              <text id="1:455" name="Записаться на воркшоп" x="32" y="16.5" width="191" height="19" />
+              <frame id="1:456" name="arrow-sm-right-svgrepo-com (2) 1" x="231" y="9" width="34" height="34" />
+            </frame>
+          </frame>
+          <frame id="1:458" name="Frame 1171276900" x="503" y="0" width="399" height="499">
+            <frame id="1:459" name="Frame 1171276902" x="16" y="407" width="367" height="76">
+              <frame id="1:460" name="Frame 1171276903" x="16" y="12" width="52" height="52">
+                <text id="1:461" name="НП" x="12.5" y="15" width="27" height="22" />
+              </frame>
+              <frame id="1:462" name="Frame 1171276904" x="84" y="13.5" width="239" height="49">
+                <text id="1:463" name="Никита Пожидаев" x="0" y="0" width="161" height="22" />
+                <text id="1:464" name="Руководитель AI-направления" x="0" y="30" width="239" height="19" />
+              </frame>
+            </frame>
+            <frame id="1:465" name="Frame 1171276903" x="170" y="220" width="60" height="60">
+              <text id="1:466" name="НП" x="16.5" y="19" width="27" height="22" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:467" name="Frame 1171276882" x="0" y="6187" width="1400" height="750">
+      <frame id="1:468" name="Frame 1171276881" x="0" y="44" width="1400" height="662">
+        <text id="1:469" name="После воркшопа" x="640.5" y="0" width="119" height="15" />
+        <text id="1:470" name="К чему ты придёшь" x="409" y="59" width="582" height="60" />
+        <frame id="1:471" name="Frame 1171276906" x="209" y="163" width="982" height="499">
+          <frame id="1:472" name="Frame 1171276936" x="0" y="55.5" width="982" height="388">
+            <frame id="1:473" name="Frame 1171276909" x="0" y="0" width="479" height="388">
+              <text id="1:474" name="Почувствуешь" x="20" y="20" width="141" height="26" />
+              <frame id="1:475" name="Frame 1171276933" x="20" y="84.33332824707031" width="439" height="69">
+                <text id="1:476" name="Независимость" x="0" y="0" width="439" height="19" />
+                <text id="1:477" name="Надо что-то изменить в боте — описал задачу агенту, получил результат. Без звонков, без ТЗ, без ожидания." x="0" y="31" width="439" height="38" />
+              </frame>
+              <frame id="1:478" name="Frame 1171276934" x="20" y="191.66665649414062" width="439" height="69">
+                <text id="1:479" name="Уверенность" x="0" y="0" width="439" height="19" />
+                <text id="1:480" name="Технологии больше не пугают — ты понимаешь, как они работают, и умеешь ими управлять." x="0" y="31" width="439" height="38" />
+              </frame>
+              <frame id="1:481" name="Frame 1171276935" x="20" y="299" width="439" height="69">
+                <text id="1:482" name="Гордость" x="0" y="0" width="439" height="19" />
+                <text id="1:483" name="Ты сделал это сам. Без разработчика. За один день. Работает прямо сейчас." x="0" y="31" width="439" height="38" />
+              </frame>
+            </frame>
+            <frame id="1:484" name="Frame 1171276910" x="503" y="0" width="479" height="388">
+              <text id="1:485" name="Достигнешь" x="20" y="20" width="122" height="26" />
+              <frame id="1:486" name="Frame 1171276933" x="20" y="78" width="439" height="88">
+                <text id="1:487" name="Брони принимаются автоматически" x="0" y="0" width="439" height="19" />
+                <text id="1:488" name="24/7, без пропущенных звонков и потерянных сообщений. Ни один гость больше не уйдёт без ответа." x="0" y="31" width="439" height="57" />
+              </frame>
+              <frame id="1:489" name="Frame 1171276934" x="20" y="198" width="439" height="69">
+                <text id="1:490" name="Собственный AI-продукт" x="0" y="0" width="439" height="19" />
+                <text id="1:491" name="Под конкретную задачу заведения. Не чужой шаблон — твой, на твоих данных." x="0" y="31" width="439" height="38" />
+              </frame>
+              <frame id="1:492" name="Frame 1171276935" x="20" y="299" width="439" height="69">
+                <text id="1:493" name="Навык строить, а не только использовать" x="0" y="0" width="439" height="19" />
+                <text id="1:494" name="Следующий продукт — быстрее и без помощи. Ты знаешь, как это делается." x="0" y="31" width="439" height="38" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:495" name="Frame 1171276881" x="0" y="6937" width="1400" height="675">
+      <frame id="1:496" name="Frame 1171276881" x="0" y="44" width="1062" height="587">
+        <frame id="1:497" name="Frame 1171276905" x="0" y="0" width="798" height="167">
+          <text id="1:498" name="Кому подходит воркшоп" x="0" y="0" width="177" height="15" />
+          <text id="1:499" name="Вы на своём месте, если хотя бы одно про вас" x="0" y="47" width="798" height="120" />
+        </frame>
+        <frame id="1:500" name="Frame 335966" x="0" y="211" width="1062" height="240">
+          <frame id="1:501" name="Frame 335950" x="0" y="0" width="346" height="240">
+            <frame id="1:502" name="Frame 1171276920" x="20" y="20" width="239" height="100">
+              <frame id="1:503" name="Frame 1171276862" x="0" y="0" width="56" height="58">
+                <text id="1:504" name="🍽️" x="12" y="8" width="32" height="42" />
+              </frame>
+              <text id="1:505" name="Ресторатор или отельер" x="0" y="74" width="239" height="26" />
+            </frame>
+            <text id="1:506" name="Принимаете брони вручную — по телефону, в мессенджерах, через администратора. Хотите, чтобы это работало само." x="20" y="136" width="306" height="84" />
+          </frame>
+          <frame id="1:507" name="Frame 335951" x="358" y="0" width="346" height="240">
+            <frame id="1:508" name="Frame 1171276921" x="20" y="20" width="287" height="100">
+              <frame id="1:509" name="Frame 1171276863" x="0" y="0" width="56" height="58">
+                <text id="1:510" name="📊" x="12" y="8" width="32" height="42" />
+              </frame>
+              <text id="1:511" name="Управляющий или менеджер" x="0" y="74" width="287" height="26" />
+            </frame>
+            <text id="1:512" name="Координируете процессы — между кухней, залом, поставщиками. Знаете, где теряется время. Хотите это автоматизировать." x="20" y="136" width="306" height="84" />
+          </frame>
+          <frame id="1:513" name="Frame 335952" x="716" y="0" width="346" height="240">
+            <frame id="1:514" name="Frame 1171276922" x="20" y="20" width="272" height="100">
+              <frame id="1:515" name="Frame 1171276863" x="0" y="0" width="56" height="58">
+                <text id="1:516" name="🚀" x="12" y="8" width="32" height="42" />
+              </frame>
+              <text id="1:517" name="Тот, кто хочет быть первым" x="0" y="74" width="272" height="26" />
+            </frame>
+            <text id="1:518" name="В вашем городе или нише ещё никто не внедрил AI в работу заведения всерьёз. Вы хотите стать тем, кто сделал это первым." x="20" y="136" width="306" height="84" />
+          </frame>
+        </frame>
+        <frame id="1:519" name="Frame 335953" x="0" y="495" width="1062" height="92">
+          <text id="1:520" name="✦" x="20" y="25" width="28" height="42" />
+          <text id="1:521" name="Техническое образование не нужно. Нужен ноутбук, задача из вашего бизнеса и готовность два дня работать руками. Остальное — наша работа." x="64" y="20" width="978" height="52" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:522" name="Frame 1171276876" x="0" y="7612" width="1400" height="805">
+      <frame id="1:523" name="Frame 1171276881" x="0" y="44" width="1062" height="717">
+        <frame id="1:524" name="Frame 1171276905" x="0" y="0" width="440" height="161">
+          <text id="1:525" name="программа" x="0" y="0" width="79" height="15" />
+          <text id="1:526" name="Два дня. Два продукта." x="0" y="47" width="440" height="114" />
+        </frame>
+        <frame id="1:527" name="segmented control" x="0" y="205" width="440" height="50">
+          <frame id="1:528" name="segmented control item" x="4" y="4" width="214" height="42">
+            <text id="1:529" name="Текст" x="63.5" y="12" width="87" height="18" />
+          </frame>
+          <frame id="1:530" name="segmented control item" x="222" y="4" width="214" height="42">
+            <text id="1:531" name="Текст" x="46" y="12" width="122" height="18" />
+          </frame>
+          <instance id="1:532" name="segmented control item" x="412" y="4" width="200" height="36" hidden="true" />
+        </frame>
+        <frame id="1:533" name="Frame 1171276846" x="0" y="299" width="1062" height="418">
+          <frame id="1:534" name="Frame 335966" x="0" y="0" width="1062" height="203">
+            <frame id="1:535" name="Frame 335950" x="0" y="0" width="346" height="203">
+              <frame id="1:536" name="Frame 1171276920" x="20" y="20" width="235" height="84">
+                <frame id="1:537" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:538" name="1" x="16" y="8" width="10" height="26" />
+                </frame>
+                <text id="1:539" name="Настраиваете AI-агента" x="0" y="58" width="235" height="26" />
+              </frame>
+              <text id="1:540" name="Ваш инструмент, который пишет код вместо вас" x="20" y="141" width="306" height="42" />
+            </frame>
+            <frame id="1:541" name="Frame 335951" x="358" y="0" width="346" height="203">
+              <frame id="1:542" name="Frame 1171276921" x="20" y="20" width="256" height="84">
+                <frame id="1:543" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:544" name="2" x="14.5" y="8" width="13" height="26" />
+                </frame>
+                <text id="1:545" name="Создаёте диалог с гостем" x="0" y="58" width="256" height="26" />
+              </frame>
+              <text id="1:546" name="Бот понимает запрос на бронирование на русском" x="20" y="141" width="306" height="42" />
+            </frame>
+            <frame id="1:547" name="Frame 335952" x="716" y="0" width="346" height="203">
+              <frame id="1:548" name="Frame 1171276922" x="20" y="20" width="253" height="84">
+                <frame id="1:549" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:550" name="3" x="14" y="8" width="14" height="26" />
+                </frame>
+                <text id="1:551" name="Добавляете логику брони" x="0" y="58" width="253" height="26" />
+              </frame>
+              <text id="1:552" name="Проверка занятости, подтверждение, альтернативное время" x="20" y="141" width="306" height="42" />
+            </frame>
+          </frame>
+          <frame id="1:553" name="Frame 1171276594" x="0" y="215" width="1062" height="203">
+            <frame id="1:554" name="Frame 335951" x="0" y="0" width="346" height="203">
+              <frame id="1:555" name="Frame 1171276923" x="20" y="20" width="275" height="84">
+                <frame id="1:556" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:557" name="4" x="14" y="8" width="14" height="26" />
+                </frame>
+                <text id="1:558" name="Настраиваете уведомления" x="0" y="58" width="275" height="26" />
+              </frame>
+              <text id="1:559" name="Вы знаете о каждой новой брони — мгновенно" x="20" y="141" width="306" height="42" />
+            </frame>
+            <frame id="1:560" name="Frame 335952" x="358" y="0" width="346" height="203">
+              <frame id="1:561" name="Frame 1171276924" x="20" y="20" width="232" height="84">
+                <frame id="1:562" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:563" name="5" x="14.5" y="8" width="13" height="26" />
+                </frame>
+                <text id="1:564" name="Делаете список броней" x="0" y="58" width="232" height="26" />
+              </frame>
+              <text id="1:565" name="Простой интерфейс для администратора" x="20" y="141" width="306" height="42" />
+            </frame>
+            <frame id="1:566" name="Frame 335950" x="716" y="0" width="346" height="203">
+              <frame id="1:567" name="Frame 1171276925" x="20" y="20" width="306" height="110">
+                <frame id="1:568" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:569" name="6" x="14.5" y="8" width="13" height="26" />
+                </frame>
+                <text id="1:570" name="Добавляете напоминание гостю" x="0" y="58" width="306" height="52" />
+              </frame>
+              <text id="1:571" name="Бот сам пишет гостю за час до визита" x="20" y="162" width="306" height="21" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:572" name="Frame 1171276877" x="0" y="8417" width="1400" height="705">
+      <frame id="1:573" name="Frame 1171276881" x="0" y="44" width="1062" height="617">
+        <frame id="1:574" name="Frame 1171276905" x="0" y="0" width="608" height="167">
+          <text id="1:575" name="Почему этот формат работает" x="0" y="0" width="211" height="15" />
+          <text id="1:576" name="Четыре отличия от всего остального" x="0" y="47" width="608" height="120" />
+        </frame>
+        <frame id="1:577" name="Frame 1171276846" x="0" y="211" width="1062" height="406">
+          <frame id="1:578" name="Frame 335966" x="0" y="0" width="1062" height="203">
+            <frame id="1:579" name="Frame 335950" x="0" y="0" width="531" height="203">
+              <frame id="1:580" name="Frame 1171276920" x="20" y="20" width="316" height="84">
+                <frame id="1:581" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:582" name="01" x="9.5" y="0" width="23" height="42" />
+                </frame>
+                <text id="1:583" name="Ваша задача — не учебный кейс" x="0" y="58" width="316" height="26" />
+              </frame>
+              <text id="1:584" name="Приходите с реальной болью своего бизнеса. Никаких выдуманных заданий и чужих примеров." x="20" y="141" width="491" height="42" />
+            </frame>
+            <frame id="1:585" name="Frame 335951" x="531" y="0" width="531" height="203">
+              <frame id="1:586" name="Frame 1171276921" x="20" y="20" width="425" height="84">
+                <frame id="1:587" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:588" name="02" x="7.5" y="0" width="27" height="42" />
+                </frame>
+                <text id="1:589" name="Описываете на русском — агент пишет код" x="0" y="58" width="425" height="26" />
+              </frame>
+              <text id="1:590" name="Никакого синтаксиса. Вы объясняете задачу — AI пишет, запускает, тестирует." x="20" y="141" width="491" height="42" />
+            </frame>
+          </frame>
+          <frame id="1:591" name="Frame 1171276594" x="0" y="203" width="1062" height="203">
+            <frame id="1:592" name="Frame 335951" x="0" y="0" width="531" height="203">
+              <frame id="1:593" name="Frame 1171276923" x="20" y="20" width="301" height="84">
+                <frame id="1:594" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:595" name="03" x="7.5" y="0" width="27" height="42" />
+                </frame>
+                <text id="1:596" name="Два эксперта рядом весь день" x="0" y="58" width="301" height="26" />
+              </frame>
+              <text id="1:597" name="Не видеозапись, не чат раз в неделю. Два практика рядом — застрял, подошёл, разобрались за минуты." x="20" y="141" width="491" height="42" />
+            </frame>
+            <frame id="1:598" name="Frame 335952" x="531" y="0" width="531" height="203">
+              <frame id="1:599" name="Frame 1171276924" x="20" y="20" width="352" height="84">
+                <frame id="1:600" name="Frame 1171276862" x="0" y="0" width="42" height="42">
+                  <text id="1:601" name="04" x="7.5" y="0" width="27" height="42" />
+                </frame>
+                <text id="1:602" name="Уходите с продуктом, а не с планом" x="0" y="58" width="352" height="26" />
+              </frame>
+              <text id="1:603" name="День 1 — бот запущен. День 2 — второй продукт готов. Не «когда-нибудь». Уже." x="20" y="141" width="491" height="42" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:604" name="Frame 1171276878" x="0" y="9122" width="1400" height="623">
+      <frame id="1:605" name="Frame 1171276881" x="0" y="44" width="1400" height="535">
+        <text id="1:606" name="Сравнение" x="663" y="0" width="74" height="15" />
+        <text id="1:607" name="Другие учат работать с AI. Мы учим его строить." x="264" y="59" width="872" height="120" />
+        <frame id="1:608" name="Frame 1171276918" x="288" y="223" width="824" height="312">
+          <frame id="1:609" name="Managment" x="0" y="0" width="824" height="52">
+            <text id="1:610" name="Другие курсы по AI" x="12" y="8" width="96" height="36" />
+            <text id="1:611" name="Другие курсы по AI" x="175.5" y="17" width="289" height="18" />
+            <text id="1:612" name="Наш воркшоп" x="532" y="17" width="280" height="18" />
+          </frame>
+          <frame id="1:613" name="Managment" x="0" y="52" width="824" height="52">
+            <text id="1:614" name="Итог дня 1" x="12" y="16" width="96" height="18" />
+            <text id="1:615" name="Промпты и ассистенты в ChatGPT" x="175.5" y="16" width="289" height="18" />
+            <text id="1:616" name="Задеплоенный Telegram-бот" x="532" y="16" width="280" height="18" />
+          </frame>
+          <frame id="1:617" name="Managment" x="0" y="104" width="824" height="52">
+            <text id="1:618" name="День 2" x="12" y="16" width="96" height="18" />
+            <text id="1:619" name="Блоки тем: маркетинг, HR, стратегия" x="175.5" y="16" width="289" height="18" />
+            <text id="1:620" name="Хакатон 100% под вашу задачу" x="532" y="16" width="280" height="18" />
+          </frame>
+          <frame id="1:621" name="Managment" x="0" y="156" width="824" height="52">
+            <text id="1:622" name="Что создаёте" x="12" y="16" width="96" height="18" />
+            <text id="1:623" name="Ассистента в чужом сервисе" x="175.5" y="16" width="289" height="18" />
+            <text id="1:624" name="Собственное ПО на ваших данных" x="532" y="16" width="280" height="18" />
+          </frame>
+          <frame id="1:625" name="Managment" x="0" y="208" width="824" height="52">
+            <text id="1:626" name="Эксперты" x="12" y="16" width="96" height="18" />
+            <text id="1:627" name="Преподаватели AI" x="175.5" y="16" width="289" height="18" />
+            <text id="1:628" name="IT-практики: Норникель, МТС, СИБУР" x="532" y="16" width="280" height="18" />
+          </frame>
+          <frame id="1:629" name="Managment" x="0" y="260" width="824" height="52">
+            <text id="1:630" name="Уходите" x="12" y="16" width="96" height="18" />
+            <text id="1:631" name="Умея промптить — зависите от ChatGPT" x="175.5" y="16" width="289" height="18" />
+            <text id="1:632" name="Умея строить — не зависите ни от кого" x="532" y="16" width="280" height="18" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:633" name="Frame 1171276879" x="0" y="9745" width="1400" height="1019">
+      <frame id="1:634" name="Frame 1171276881" x="0" y="44" width="1400" height="931">
+        <frame id="1:635" name="Frame 1171276905" x="0" y="0" width="459" height="167">
+          <text id="1:636" name="Вопросы" x="0" y="0" width="63" height="15" />
+          <text id="1:637" name="Сомнения — это нормально" x="0" y="47" width="459" height="120" />
+        </frame>
+        <frame id="1:638" name="Frame 1171276928" x="0" y="211" width="1400" height="720">
+          <frame id="1:639" name="Frame 335899" x="0" y="0" width="1400" height="62">
+            <text id="1:640" name="Я не разбираюсь в технологиях — справлюсь?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:641" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:643" name="Frame 1171276906" x="0" y="94" width="1400" height="62">
+            <text id="1:644" name="Нужна ли помощь программиста после воркшопа?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:645" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:647" name="Frame 1171276907" x="0" y="188" width="1400" height="62">
+            <text id="1:648" name="Зачем мне бот, если есть телефон?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:649" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:651" name="Frame 1171276908" x="0" y="282" width="1400" height="62">
+            <text id="1:652" name="Что если у меня нет идеи для второго дня?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:653" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:655" name="Frame 1171276909" x="0" y="376" width="1400" height="62">
+            <text id="1:656" name="Можно оплатить от юридического лица?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:657" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:659" name="Frame 1171276910" x="0" y="470" width="1400" height="62">
+            <text id="1:660" name="Нужно ли что-то устанавливать заранее?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:661" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:663" name="Frame 1171276911" x="0" y="564" width="1400" height="62">
+            <text id="1:664" name="Я уже был на мастер-классе по AI. Чем это отличается?" x="0" y="0" width="1008" height="30" />
+            <frame id="1:665" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+          <frame id="1:667" name="Frame 1171276912" x="0" y="658" width="1400" height="62">
+            <text id="1:668" name="Что значит «без программиста»? Неужели совсем?" x="0" y="0" width="578" height="30" />
+            <frame id="1:669" name="Frame 182" x="1376" y="3" width="24" height="24" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:671" name="Frame 1171276880" x="-260" y="10764" width="1920" height="938">
+      <frame id="1:672" name="Frame 1171276881" x="609.5" y="44" width="701" height="227">
+        <frame id="1:673" name="Group 335978" x="1575.2904052734375" y="11.508894920349121" width="1136.79043277874" height="1138.7500783911091">
+          <frame id="1:674" name="Group 335976" x="1575.2904052734373" y="11.508894920350007" width="1082.5234762414948" height="1079.91172981411">
+            <ellipse id="1:675" name="Ellipse 2375" x="1575.290405273437" y="11.508894920350894" width="876.2711284793841" height="876.2711284793841" />
+            <ellipse id="1:676" name="Ellipse 2376" x="1369.038087251976" y="137.70518984499628" width="876.2711284793841" height="876.2711284793841" />
+          </frame>
+          <frame id="1:677" name="Group 335977" x="1521.0189963279568" y="50.55782241879069" width="1082.5190609408746" height="1079.9106576808117">
+            <ellipse id="1:678" name="Ellipse 2375" x="1521.018994990903" y="50.55782338079375" width="876.2711284793841" height="876.2711284793841" />
+            <ellipse id="1:679" name="Ellipse 2376" x="1314.771057024223" y="176.75509341254337" width="876.2711284793841" height="876.2711284793841" />
+          </frame>
+        </frame>
+        <frame id="1:680" name="Frame 1171276867" x="134.5" y="0" width="432" height="41">
+          <text id="1:681" name="Ростов-на-Дону · Конец июля · До 30 участников" x="16" y="12" width="400" height="17" />
+        </frame>
+        <frame id="1:682" name="Frame 1171276932" x="0" y="65" width="701" height="162">
+          <text id="1:683" name="К вечеру первого дня ваш бот уже работает." x="0" y="0" width="701" height="120" />
+          <text id="1:684" name="Первый поток — цена ниже, чем будет на следующем." x="18.5" y="140" width="664" height="22" />
+          <vector id="1:685" name="Vector 2" x="267.5" y="120" width="419" height="14" />
+        </frame>
+      </frame>
+      <frame id="1:686" name="Frame 1171276929" x="688.25" y="315" width="543.5" height="483">
+        <frame id="1:687" name="Frame 1171276930" x="32" y="32" width="479.5" height="85">
+          <frame id="1:688" name="Обычный инпут" x="0" y="0" width="229.75" height="85">
+            <text id="1:689" name="Referral Link Title" x="0" y="0" width="33" height="21" />
+            <frame id="1:690" name="Referral Link Container" x="0" y="33" width="229.75" height="52">
+              <text id="1:691" name="Referral Link" x="16" y="17" width="36" height="18" />
+            </frame>
+            <text id="1:692" name="описание" x="0" y="97" width="295" height="16" hidden="true" />
+          </frame>
+          <frame id="1:693" name="Обычный инпут" x="249.75" y="0" width="229.75" height="85">
+            <text id="1:694" name="Referral Link Title" x="0" y="0" width="166" height="21" />
+            <frame id="1:695" name="Referral Link Container" x="0" y="33" width="229.75" height="52">
+              <text id="1:696" name="Referral Link" x="16" y="17" width="125" height="18" />
+            </frame>
+            <text id="1:697" name="описание" x="0" y="97" width="295" height="16" hidden="true" />
+          </frame>
+        </frame>
+        <frame id="1:698" name="Обычный инпут" x="32" y="137" width="479.5" height="85">
+          <text id="1:699" name="Referral Link Title" x="0" y="0" width="84" height="21" />
+          <frame id="1:700" name="Referral Link Container" x="0" y="33" width="479.5" height="52">
+            <text id="1:701" name="Referral Link" x="16" y="17" width="179" height="18" />
+          </frame>
+          <text id="1:702" name="описание" x="0" y="97" width="295" height="16" hidden="true" />
+        </frame>
+        <frame id="1:703" name="Инпут селектор" x="32" y="242" width="479.5" height="85">
+          <text id="1:704" name="Referral Link Title" x="0" y="0" width="121" height="21" />
+          <frame id="1:705" name="Referral Link Container" x="0" y="33" width="479.5" height="52">
+            <text id="1:706" name="Referral Link" x="16" y="17" width="125" height="18" />
+            <text id="1:707" name="􀆈" x="444.5" y="20" width="19" height="12" />
+          </frame>
+        </frame>
+        <frame id="1:708" name="Frame 1171276931" x="32" y="347" width="479.5" height="104">
+          <frame id="1:709" name="Frame 1171276872" x="0" y="0" width="479.5" height="52">
+            <text id="1:710" name="Занять место на воркшопе" x="110.75" y="16.5" width="216" height="19" />
+            <frame id="1:711" name="arrow-sm-right-svgrepo-com (2) 2" x="334.75" y="9" width="34" height="34" />
+          </frame>
+          <text id="1:713" name="Referral Link" x="17.75" y="72" width="444" height="32" />
+        </frame>
+      </frame>
+      <frame id="1:714" name="Frame 1171276873" x="699.5" y="842" width="521" height="52">
+        <text id="1:715" name="Написать в Telegram - разберем вашу задачу за 15 минут." x="32" y="16.5" width="457" height="19" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1:716" name="Frame 1171276883" x="0" y="11772" width="1920" height="70">
+    <frame id="1:717" name="Frame 1171276926" x="48" y="26.5" width="200.4608917236328" height="17">
+      <vector id="1:718" name="Sheverev" x="0.008488926105201244" y="4.135601997375488" width="88.96410523744522" height="8.728795873541458" />
+      <text id="1:719" name="/" x="97.23836517333984" y="0.0001564017147757113" width="6" height="17" />
+      <frame id="1:720" name="_ 1" x="111.51261901855469" y="3.6733498573303223" width="88.94827270507812" height="9.653300285339355" />
+    </frame>
+    <text id="1:731" name="Первый AI-воркшоп для HoReCa в Ростове-на-Дону · 2026" x="1466" y="26.5" width="406" height="17" />
+  </frame>
+</frame>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

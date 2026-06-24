@@ -1,0 +1,1 @@
+export {CourseComparison} from './CourseComparison';

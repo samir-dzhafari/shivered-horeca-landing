@@ -1,0 +1,76 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.titleAccent {
+	@include title-accent;
+}
+
+.grid {
+	@include bordered-grid-shell;
+	@include content-grid-format;
+	width: 100%;
+}
+
+.cell {
+	min-height: 203px;
+	padding: $space-card;
+	border-right: 1px solid $color-neutral-200;
+	border-bottom: 1px solid $color-neutral-200;
+	background: $color-white;
+
+	&:nth-child(2n) {
+		border-right: none;
+	}
+
+	&:nth-child(n + 3) {
+		border-bottom: none;
+	}
+
+	@include respond-tablet {
+		border-right: none;
+		min-height: auto;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid $color-neutral-200;
+		}
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	@include respond-mobile {
+		padding: 16px;
+	}
+}
+
+.cellHead {
+	margin-bottom: 37px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.num {
+	display: block;
+	font-family: $font-instrument;
+	font-size: $text-stat;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1;
+	color: $color-blue-600;
+
+	@include respond-mobile {
+		font-size: 32px;
+	}
+}
+
+.cardTitle {
+	@include card-title-md;
+	margin: 16px 0 0;
+}
+
+.cardText {
+	@include card-body;
+}

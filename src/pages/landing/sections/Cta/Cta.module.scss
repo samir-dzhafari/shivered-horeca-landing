@@ -1,0 +1,221 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.section {
+	position: relative;
+	background: $color-dark-bg;
+	overflow: hidden;
+}
+
+.glows {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.glow1,
+.glow2 {
+	position: absolute;
+	width: min(1137px, 59.2%);
+	height: auto;
+
+	@include respond-mobile {
+		width: 600px;
+		opacity: 0.5;
+	}
+}
+
+// Figma 1:671 at page x=-260. Glow groups inside intro 1:672 (x=609.5).
+$cta-figma-width: 1920;
+$cta-figma-height: 938;
+$cta-intro-x: 609.5;
+$cta-intro-y: 44;
+
+.glow1 {
+	top: calc((#{$cta-intro-y} + 11.51) / #{$cta-figma-height} * 100%);
+	left: calc((1575.29 - #{$cta-intro-x}) / #{$cta-figma-width} * 100%);
+	opacity: 0.8;
+}
+
+.glow2 {
+	top: calc((#{$cta-intro-y} + 50.56) / #{$cta-figma-height} * 100%);
+	left: calc((1521.02 - #{$cta-intro-x}) / #{$cta-figma-width} * 100%);
+	mix-blend-mode: color-dodge;
+	opacity: 0.6;
+}
+
+.inner {
+	position: relative;
+	width: 100%;
+	margin-inline: auto;
+	padding-inline: $page-padding-mobile;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: $space-section;
+
+	@media (min-width: $bp-mobile) and (max-width: #{$bp-desktop - 1px}) {
+		padding-inline: $page-padding;
+	}
+
+	@include respond-mobile {
+		gap: 32px;
+	}
+
+	@include respond-desktop {
+		padding-inline: 0;
+	}
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	width: 100%;
+	max-width: $content-width-cta-heading;
+}
+
+.badge {
+	align-self: center;
+}
+
+.heading {
+	text-align: center;
+	width: 100%;
+}
+
+.title {
+	@include heading-xl;
+	position: relative;
+	color: $color-white;
+	margin: 0 0 20px;
+	max-width: $content-width-cta-heading;
+	margin-inline: auto;
+}
+
+.titleAccent {
+	position: relative;
+	display: inline-block;
+	white-space: nowrap;
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -12px;
+		width: 100%;
+		height: 14px;
+		background: url('/assets/icons/underline.svg?v=2') no-repeat left bottom / 100% 14px;
+		pointer-events: none;
+	}
+}
+
+.titleLine1,
+.titleLine2 {
+	@media (min-width: $bp-desktop) {
+		white-space: nowrap;
+	}
+}
+
+.subtitle {
+	font-size: $text-body-lg;
+	color: $color-white;
+	max-width: $content-width-hero-subtitle;
+	margin-inline: auto;
+
+	@include respond-mobile {
+		font-size: $text-body-md;
+		line-height: 1.5;
+	}
+}
+
+.form {
+	width: 100%;
+	max-width: $content-width-cta;
+	padding: 32px;
+	border-radius: $radius-card;
+	@include glass-dark;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	@include respond-mobile {
+		padding: 24px 20px;
+	}
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+
+	@include respond-mobile {
+		grid-template-columns: 1fr;
+	}
+}
+
+.submitWrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.formNote {
+	font-size: $text-label;
+	line-height: normal;
+	color: $color-neutral-500;
+	text-align: center;
+	max-width: 444px;
+}
+
+.errorMessage {
+	font-size: $text-tag;
+	color: $color-error;
+	text-align: center;
+}
+
+.success {
+	width: 100%;
+	max-width: $content-width-cta;
+	padding: 32px;
+	border-radius: $radius-card;
+	@include glass-dark;
+	text-align: center;
+	color: $color-white;
+
+	@include respond-mobile {
+		padding: 24px 20px;
+	}
+
+	h3 {
+		font-size: $text-h3;
+		margin-bottom: 12px;
+
+		@include respond-mobile {
+			font-size: 28px;
+		}
+	}
+
+	p {
+		font-size: $text-body-md;
+		color: $color-neutral-400;
+	}
+}
+
+.telegramBtn {
+	width: 100%;
+	max-width: 521px;
+	justify-content: center;
+	align-self: center;
+
+	@include respond-tablet {
+		min-height: $button-height;
+		white-space: normal;
+		text-align: center;
+		padding-block: 12px;
+	}
+}

@@ -1,0 +1,90 @@
+// Colors
+$color-blue-50: #eff6ff;
+$color-blue-200: #bfdbfe;
+$color-blue-600: #1b4dff;
+$color-expert-card-start: #eff6ff;
+$color-expert-card-end: #c5cae9;
+$color-neutral-50: #fafafa;
+$color-neutral-100: #f5f5f5;
+$color-neutral-200: #e5e5e5;
+$color-neutral-400: #a3a3a3;
+$color-neutral-500: #737373;
+$color-neutral-600: #525252;
+$color-neutral-700: #404040;
+$color-neutral-800: #262626;
+$color-dark-bg: #232323;
+$color-white: #fff;
+$color-error: #ef4444;
+$color-red-50: #fef2f2;
+$color-red-500: #ef4444;
+$color-orange-500: #f97316;
+$color-yellow-500: #eab308;
+$color-green-500: #22c55e;
+$color-green-600: #16a34a;
+
+// Typography
+$font-inter: 'Inter', sans-serif;
+$font-unbounded: 'Unbounded', sans-serif;
+$font-instrument: 'Instrument Sans', sans-serif;
+
+$text-hero: 64px;
+$text-h2: 48px;
+$text-h3: 40px;
+$text-stat: 42px;
+$text-body-lg: 18px;
+$text-body-md: 16px;
+$text-label: 13px;
+$text-tag: 14px;
+
+// Layout
+$container-width: 1400px;
+$page-max-width: 1920px;
+$page-padding: 48px;
+$page-padding-mobile: 24px;
+$header-height: 70px;
+
+// Content widths (Figma)
+$content-width-competitors: 390px;
+$content-width-program: 440px;
+$content-width-format-header: 608px;
+$content-width-experts: 902px;
+$content-width-audience: 712px;
+$content-width-fit: 798px;
+$content-width-list: 867px;
+$content-width-comparison-sm: 694px;
+$content-width-comparison-lg: 824px;
+$content-width-outcomes: 982px;
+$content-width-outcomes-title: 582px;
+$content-width-format: 1062px;
+$content-width-deliverables: 1340px;
+$content-width-hero-title: 1128px;
+$content-width-hero-subtitle: 664px;
+$content-width-hero-tags: 554px;
+$content-width-cta: 544px;
+$content-width-cta-heading: 701px;
+$content-width-chat: 478px;
+$content-width-how-it-works-text: 665px;
+$how-it-works-chat-offset-right: 144px;
+
+// Spacing
+$space-section: 44px;
+$space-card: 20px;
+$space-grid: 12px;
+$space-partners: 52px;
+
+// Breakpoints
+$bp-mobile: 768px;
+$bp-tablet: 1024px;
+$bp-laptop: 1280px;
+$bp-desktop: 1440px;
+
+// Radius
+$radius-pill: 999px;
+$radius-card: 25px;
+$radius-card-sm: 16px;
+$radius-card-xs: 12px;
+
+// Components
+$button-height: 52px;
+$button-height-sm: 43px;
+$input-height: 52px;

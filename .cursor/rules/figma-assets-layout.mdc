@@ -1,0 +1,70 @@
+---
+description: Экспорт SVG/логотипов из Figma, full-bleed и бегущие строки — чеклист против типичных ошибок вёрстки
+globs: ["**/*.{js,jsx,ts,tsx,css,scss,svg}", "public/assets/**", ".cursor/figma-cache/**"]
+alwaysApply: true
+---
+
+# Ассеты из Figma и layout-паттерны
+
+Правило по итогам реальных ошибок на лендинге (растянутые логотипы, статичный ряд партнёров вместо marquee, блок не на всю ширину).
+
+## 1. SVG после экспорта из Figma — обязательная санитизация
+
+Figma MCP / `download_assets` часто отдаёт SVG с атрибутами:
+
+```xml
+preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;"
+```
+
+**Почему ломается:** в `<img height="40" width="auto">` браузер растягивает SVG без сохранения пропорций → логотипы и иконки выглядят «сплющенными» или вытянутыми.
+
+**Перед коммитом каждого SVG в `public/assets/`:**
+
+1. Удалить `preserveAspectRatio="none"`, `width="100%"`, `height="100%"`, `overflow="visible"`, inline `style`.
+2. Оставить только `viewBox` (и при необходимости явные `width`/`height` из viewBox).
+3. Проверить в браузере: пропорции совпадают со скриншотом из `.cursor/figma-cache/`.
+
+**Быстрая проверка в репозитории:**
+
+```bash
+rg 'preserveAspectRatio="none"' public/assets
+```
+
+Результат должен быть пустым.
+
+## 2. Marquee / бегущая строка — как распознать в макете
+
+Не делать статичный `flex` + `overflow-x: auto`, если макет подразумевает непрерывную прокрутку.
+
+**Сигналы в `metadata.xml` кэша Figma:**
+
+- Ряд логотипов **шире родителя** (пример: frame `2579px` внутри контента `1400px`).
+- Отрицательный `x` у родительского frame (контент «вылезает» за сетку).
+- На скриншоте секции логотипы обрезаны по краям viewport.
+
+**Реализация в проекте:**
+
+- Компонент `shared/ui/LogoMarquee` — дублирование набора логотипов + CSS `animation` с `translateX(-50%)`.
+- Отступ между иконками — из макета (`$space-partners: 52px`), одинаковый внутри группы и между дубликатами (`padding-right` = `gap`).
+- `prefers-reduced-motion: reduce` — остановить анимацию.
+
+## 3. Full-bleed (на всю ширину страницы)
+
+**Ошибка:** положить edge-to-edge блок внутрь `Container` / `max-width: 1400px` без выхода за сетку.
+
+**Правило:** если в Figma элемент тянется от левого до правого края artboard (`1920px`) или шире content-shell — использовать `@include full-bleed` из `src/styles/_mixins.scss`, а не полагаться на `width: 100%` внутри центрированного контейнера.
+
+Marquee, декоративные полосы, фоновые градиенты — типичные кандидаты на full-bleed.
+
+## 4. Чеклист перед сдачей секции с логотипами / иконками
+
+- [ ] SVG прошли санитизацию (п. 1).
+- [ ] Пропорции сверены со `screenshot.png` из кэша Figma.
+- [ ] Поведение (статика / marquee / carousel) определено по metadata + скриншоту, не «на глаз».
+- [ ] Ширина: full-bleed там, где макет шире content-shell.
+- [ ] В `<img>` для логотипов: `height` из макета, `width: auto`, `object-fit: contain` — без фиксированной ширины, ломающей aspect ratio.
+
+## Связь с другими правилами
+
+- Данные макета — `.cursor/figma-cache/` (`figma-cache.mdc`).
+- Пиксель-перфект и этапы работы — `development-workflow.mdc`.

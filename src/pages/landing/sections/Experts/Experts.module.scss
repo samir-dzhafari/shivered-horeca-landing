@@ -1,0 +1,136 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.inner {
+	width: 100%;
+	max-width: $content-width-experts;
+	margin-inline-end: auto;
+}
+
+$row-card-width: 399px;
+
+.row {
+	display: grid;
+	grid-template-columns: $row-card-width minmax(0, 1fr);
+	gap: 44px;
+	align-items: start;
+	margin-bottom: 44px;
+
+	> * {
+		min-width: 0;
+	}
+
+	&.reverse {
+		grid-template-columns: minmax(0, 1fr) $row-card-width;
+
+		.cardCol {
+			order: 2;
+		}
+
+		.info {
+			order: 1;
+		}
+	}
+
+	@include respond-tablet {
+		grid-template-columns: 1fr;
+		justify-items: stretch;
+		gap: 32px;
+
+		&.reverse {
+			grid-template-columns: 1fr;
+
+			.cardCol,
+			.info {
+				order: unset;
+			}
+		}
+	}
+
+	@include respond-mobile {
+		gap: 24px;
+		margin-bottom: 32px;
+	}
+}
+
+.cardCol {
+	width: 100%;
+}
+
+.info {
+	min-width: 0;
+}
+
+.role {
+	@include section-label;
+	display: block;
+	margin-bottom: 32px;
+	color: $color-blue-600;
+	text-transform: uppercase;
+
+	@include respond-mobile {
+		margin-bottom: 20px;
+	}
+}
+
+.name {
+	font-family: $font-unbounded;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: normal;
+	color: $color-neutral-800;
+	margin-bottom: 32px;
+	overflow-wrap: break-word;
+
+	@include respond-mobile {
+		font-size: 28px;
+	}
+}
+
+.nameAccent {
+	color: $color-blue-600;
+}
+
+.description {
+	@include body-lg;
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+		font-size: $text-body-md;
+		line-height: 1.5;
+	}
+}
+
+.quote {
+	padding: 6px 20px;
+	border-left: 3px solid $color-blue-600;
+	font-size: 15px;
+	font-style: italic;
+	line-height: normal;
+	color: $color-neutral-600;
+	margin-bottom: 32px;
+}
+
+.companies {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 54px;
+
+	@include respond-mobile {
+		margin-bottom: 32px;
+	}
+}
+
+.cta {
+	@include respond-tablet {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		min-height: $button-height;
+		padding-block: 12px;
+		white-space: normal;
+		text-align: center;
+	}
+}

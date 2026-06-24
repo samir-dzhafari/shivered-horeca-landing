@@ -1,0 +1,49 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.wrap {
+	position: relative;
+	width: 100%;
+}
+
+.select {
+	width: 100%;
+	height: $input-height;
+	padding: 0 40px 0 16px;
+	border: none;
+	border-radius: $radius-pill;
+	background: $color-neutral-700;
+	font-family: $font-inter;
+	font-size: 15px;
+	color: $color-white;
+	outline: none;
+	appearance: none;
+	cursor: pointer;
+
+	@include respond-mobile {
+		font-size: 16px;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 2px $color-blue-600;
+	}
+}
+
+.chevron {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.error {
+	box-shadow: 0 0 0 2px $color-error;
+}
+
+.errorText {
+	display: block;
+	margin-top: 6px;
+	font-size: 13px;
+	color: $color-error;
+}

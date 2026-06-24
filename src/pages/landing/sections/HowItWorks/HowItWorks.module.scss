@@ -1,0 +1,229 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+// Figma reference at 1400px container: text 665 | chat 478 | chat offset-right 144
+$hiw-container-ref: 1400;
+$hiw-text-col: 665;
+$hiw-chat-col: $hiw-container-ref - $hiw-text-col; // 735
+$hiw-chat-width: 478;
+$hiw-chat-offset: 144;
+$hiw-callout-width: 343;
+
+.inner {
+	display: grid;
+	grid-template-columns: minmax(0, #{$hiw-text-col}fr) minmax(0, #{$hiw-chat-col}fr);
+	align-items: end;
+
+	@include respond-tablet {
+		grid-template-columns: 1fr;
+		align-items: start;
+		row-gap: $space-section;
+	}
+
+	@include respond-mobile {
+		row-gap: 32px;
+	}
+}
+
+.text {
+	min-width: 0;
+	max-width: 100%;
+	justify-self: start;
+}
+
+.highlight {
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.time {
+	font-size: $text-body-md;
+	font-weight: 400;
+	color: $color-neutral-500;
+	margin-bottom: 12px;
+}
+
+.highlightText {
+	@include body-lg;
+	font-style: italic;
+
+	@include respond-mobile {
+		font-size: $text-body-md;
+		line-height: 1.5;
+	}
+}
+
+.highlightLink {
+	color: $color-blue-600;
+	text-decoration: none;
+
+	&:hover {
+		opacity: 0.85;
+	}
+}
+
+.highlightAccent {
+	color: $color-blue-600;
+}
+
+.description {
+	@include body-lg;
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.emphasis {
+	@include body-lg;
+	color: $color-neutral-800;
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.callout {
+	max-width: calc(100% * #{$hiw-callout-width} / #{$hiw-text-col});
+	min-height: 70px;
+	padding: 16px;
+	border-radius: $radius-card-xs;
+	background: $color-blue-50;
+	font-size: $text-tag;
+	line-height: normal;
+	color: $color-neutral-800;
+
+	@include respond-tablet {
+		max-width: 100%;
+	}
+}
+
+.calloutAccent {
+	color: $color-blue-600;
+}
+
+.chat {
+	width: calc(100% * #{$hiw-chat-width} / #{$hiw-chat-col});
+	max-width: #{$hiw-chat-width}px;
+	justify-self: end;
+	align-self: end;
+	margin-inline-end: calc(100% * #{$hiw-chat-offset} / #{$hiw-chat-col});
+	border-radius: $radius-card-sm;
+	border: 1px solid $color-neutral-200;
+	overflow: hidden;
+	background: $color-white;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+
+	@include respond-tablet {
+		width: 100%;
+		max-width: #{$hiw-chat-width}px;
+		margin-inline: auto;
+		margin-inline-end: auto;
+		justify-self: center;
+		align-self: start;
+	}
+
+	@include respond-mobile {
+		max-width: 100%;
+	}
+}
+
+.chatBody {
+	padding: 18px;
+
+	@include respond-mobile {
+		padding: 14px;
+	}
+}
+
+.chatHeader {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 12px 18px;
+	border-bottom: 1px solid $color-neutral-200;
+}
+
+.botAvatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: $color-blue-600;
+	font-size: $text-body-md;
+	flex-shrink: 0;
+}
+
+.botName {
+	font-size: $text-tag;
+	font-weight: 600;
+	color: $color-neutral-800;
+}
+
+.botStatus {
+	font-size: 12px;
+	color: $color-blue-600;
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 24px;
+}
+
+.messageGuest {
+	align-self: flex-end;
+	max-width: calc(100% * 299 / #{$hiw-chat-width});
+	padding: 14px;
+	border-radius: $radius-card-xs;
+	background: $color-blue-600;
+	font-size: 13px;
+	line-height: normal;
+	color: $color-white;
+}
+
+.messageBot {
+	max-width: calc(100% * 318 / #{$hiw-chat-width});
+	padding: 14px;
+	border-radius: $radius-card-xs;
+	background: $color-neutral-100;
+	font-size: 13px;
+	line-height: normal;
+	color: $color-neutral-800;
+}
+
+.messageTime {
+	align-self: flex-end;
+	font-size: 11px;
+	color: $color-neutral-400;
+}
+
+.notification {
+	display: flex;
+	gap: 12px;
+	align-items: flex-start;
+	padding: 14px;
+	border-radius: $radius-card-xs;
+	background: $color-blue-50;
+	font-size: 13px;
+	line-height: normal;
+	color: $color-blue-600;
+}
+
+.notificationIcon {
+	flex-shrink: 0;
+	font-size: 14px;
+	line-height: 1;
+}
+
+.notification p {
+	margin: 0;
+}

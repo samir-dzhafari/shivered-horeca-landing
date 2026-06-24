@@ -1,0 +1,13 @@
+@use '../../../styles/mixins' as *;
+
+.title {
+	@include heading-lg;
+}
+
+.titleXl {
+	@include heading-xl;
+}
+
+.accent {
+	@include title-accent;
+}

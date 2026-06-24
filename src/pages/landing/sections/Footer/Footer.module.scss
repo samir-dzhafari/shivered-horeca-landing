@@ -1,0 +1,39 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as *;
+
+.footer {
+	height: $header-height;
+	background: $color-dark-bg;
+	border-top: 1px solid $color-neutral-700;
+
+	@include respond-mobile {
+		height: auto;
+	}
+}
+
+.inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	@include shell-bleed;
+
+	@include respond-mobile {
+		flex-direction: column;
+		justify-content: center;
+		gap: 8px;
+		height: auto;
+		padding-block: 16px;
+	}
+}
+
+.text {
+	font-size: 17px;
+	line-height: 17px;
+	color: $color-neutral-400;
+
+	@include respond-mobile {
+		font-size: 12px;
+		text-align: center;
+	}
+}

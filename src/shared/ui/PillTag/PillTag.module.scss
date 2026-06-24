@@ -1,0 +1,38 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.tag {
+	@include pill-tag;
+
+	@include respond-mobile {
+		padding: 10px 14px;
+		font-size: 13px;
+		gap: 10px;
+	}
+}
+
+.compact {
+	gap: 8px;
+	height: 29px;
+	padding: 0 12px;
+	line-height: 17px;
+	background: $color-neutral-100;
+}
+
+.fired {
+	gap: 8px;
+	height: 29px;
+	padding: 0 12px;
+	line-height: 17px;
+	background: $color-red-50;
+	color: $color-red-500;
+}
+
+.plain {
+	gap: 0;
+}
+
+.dot {
+	@include dot;
+	background: var(--pill-dot-color, #{$color-blue-600});
+}

@@ -1,0 +1,43 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.tabs {
+	display: inline-flex;
+	width: 100%;
+	max-width: 440px;
+	padding: 4px;
+	border: 1px solid $color-neutral-200;
+	border-radius: $radius-pill;
+	background: $color-neutral-100;
+
+	@include respond-tablet {
+		max-width: 100%;
+	}
+}
+
+.tab {
+	flex: 1;
+	height: 42px;
+	border: none;
+	border-radius: $radius-pill;
+	font-family: $font-inter;
+	font-size: 15px;
+	font-weight: 500;
+	color: $color-neutral-500;
+	background: transparent;
+	cursor: pointer;
+	transition: background-color 0.2s, color 0.2s;
+
+	@include respond-tablet {
+		min-height: 44px;
+		height: 44px;
+		font-size: 14px;
+		padding-inline: 8px;
+	}
+}
+
+.active {
+	background: $color-blue-600;
+	color: $color-white;
+	box-shadow: none;
+}

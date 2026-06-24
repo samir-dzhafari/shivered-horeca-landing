@@ -1,0 +1,114 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.header {
+	margin-bottom: $space-section;
+
+	@include respond-mobile {
+		margin-bottom: 32px;
+	}
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.label {
+	@include section-label;
+	display: block;
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.center .label {
+	margin-bottom: $space-section;
+
+	@include respond-mobile {
+		margin-bottom: 24px;
+	}
+}
+
+.labelAccent {
+	color: $color-blue-600;
+}
+
+.labelNormal {
+	text-transform: none;
+}
+
+.title {
+	@include heading-xl;
+	margin: 0;
+}
+
+.titleWrap {
+	:global(h2) {
+		margin: 0;
+	}
+}
+
+.center .titleWrap {
+	max-width: 872px;
+}
+
+.center.width_technology .titleWrap {
+	max-width: $content-width-how-it-works-text;
+}
+
+.center.width_outcomes .titleWrap {
+	max-width: $content-width-outcomes-title;
+}
+
+.subtitle {
+	@include body-lg;
+	margin-top: 32px;
+	max-width: $content-width-hero-subtitle;
+
+	@include respond-mobile {
+		margin-top: 24px;
+		font-size: $text-body-md;
+		line-height: 1.5;
+	}
+}
+
+.width_competitors {
+	max-width: $content-width-competitors;
+}
+
+.width_program {
+	max-width: $content-width-program;
+}
+
+.width_format {
+	max-width: $content-width-format-header;
+}
+
+.width_experts {
+	max-width: $content-width-experts;
+}
+
+.width_audience {
+	max-width: $content-width-audience;
+}
+
+.width_fit {
+	max-width: $content-width-fit;
+}
+
+.width_technology {
+	max-width: $content-width-how-it-works-text;
+}
+
+.width_outcomes {
+	max-width: $content-width-outcomes-title;
+}

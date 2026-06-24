@@ -1,0 +1,67 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.grid {
+	@include bordered-grid-shell;
+	@include content-grid-deliverables;
+}
+
+.card {
+	padding: 32px;
+	border-right: 1px solid $color-neutral-200;
+	min-height: 313px;
+
+	&:last-child {
+		border-right: none;
+	}
+
+	@include respond-tablet {
+		border-right: none;
+		border-bottom: 1px solid $color-neutral-200;
+		min-height: auto;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	@include respond-mobile {
+		padding: 24px 20px;
+	}
+}
+
+.cardHeader {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		gap: 16px;
+		margin-bottom: 24px;
+	}
+}
+
+.day {
+	font-family: $font-instrument;
+	font-size: $text-body-md;
+	font-weight: 400;
+	font-style: italic;
+	color: $color-blue-600;
+	white-space: nowrap;
+}
+
+.line {
+	flex: 1;
+	height: 1px;
+	background: $color-neutral-200;
+}
+
+.cardTitle {
+	@include card-title-lg;
+	margin-bottom: 32px;
+
+	@include respond-mobile {
+		margin-bottom: 20px;
+	}
+}

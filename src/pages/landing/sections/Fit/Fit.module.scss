@@ -1,0 +1,78 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.grid {
+	@include content-grid-format;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: $space-grid;
+	margin-bottom: $space-section;
+
+	@include respond-tablet {
+		grid-template-columns: 1fr;
+	}
+}
+
+.card {
+	min-height: 240px;
+
+	@include respond-tablet {
+		min-height: auto;
+	}
+}
+
+.emojiWrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 58px;
+	margin-bottom: 16px;
+	border-radius: $radius-card-xs;
+	background: $color-neutral-50;
+}
+
+.emoji {
+	display: block;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.cardTitle {
+	@include card-title-md;
+	margin-bottom: 16px;
+}
+
+.cardText {
+	@include card-body;
+}
+
+.note {
+	@include content-grid-format;
+	display: flex;
+	gap: 16px;
+	align-items: flex-start;
+	padding: $space-card;
+	border-radius: $radius-card-sm;
+	background: $color-neutral-50;
+
+	@include respond-mobile {
+		padding: 16px;
+	}
+}
+
+.noteIcon {
+	font-size: 28px;
+	color: $color-blue-600;
+	flex-shrink: 0;
+}
+
+.note p {
+	font-size: $text-body-md;
+	line-height: normal;
+	color: $color-neutral-600;
+}
+
+.noteLead {
+	font-weight: 700;
+}

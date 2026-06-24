@@ -1,0 +1,86 @@
+---
+description: Типографика, токены цветов, отступы секций и Figma-варианты UI — чеклист против расхождений с макетом
+globs: ["**/*.{js,jsx,ts,tsx,css,scss}", ".cursor/figma-cache/**"]
+alwaysApply: true
+---
+
+# Типографика, spacing и Figma-варианты компонентов
+
+Правило по итогам массовых расхождений лендинга с макетом (лейблы секций, отступы, бейджи, табы, таблицы, FAQ, CTA).
+
+## 1. Токены — только из Figma, не «похожие»
+
+Все цвета брать из `.cursor/figma-cache/variables.json` и заводить в `src/styles/_variables.scss`.
+
+| Ошибка | Было | Нужно |
+|--------|------|-------|
+| Лейбл секции (все) | grey `section-label` по умолчанию | `labelVariant="accent"` — синий `#1b4dff` uppercase (сверять со screenshot) |
+| Callout How It Works | весь текст синий в `.callout` | lead `#262626`, accent `#1b4dff`; i18n `calloutLead` + `calloutAccent` |
+| Highlight How It Works | regular, без italic | `font-style: italic` на `.highlightText`; перенос после «уведомление.» |
+| Цитата Audience | `background: neutral-50`, без border | `border: 1px dashed neutral-200`, quote italic `#737373` |
+| Бейдж «уволен» | `PillTag compact` (серый) | variant `fired`: Red/50 + Red/500 |
+| Точки в тегах Audience | все Blue/600 | Orange/Yellow/Red/Green/Blue по порядку |
+| Активный таб | белая pill | Blue/600 фон + белый текст |
+| Tabs контейнер | без border | `border: 1px solid Neutral/200`, padding 4px, height 50px (42+4+4) |
+
+**Правило accent-лейблов:** цвет **не** выводить из `metadata.xml` `name` (там нет fill). Сверять со `screenshot.png`.
+
+| Вариант | Секции | `SectionHeader` |
+|---------|--------|-----------------|
+| **accent** (синий `#1b4dff`) | **Все** секции с `SectionHeader` | `labelVariant="accent"` |
+| **default** (серый `#a3a3a3`) | — не использовать для лейблов секций | — |
+
+При аудите: пройти **все** `SectionHeader` — у каждого должен быть `labelVariant="accent"`. Серый `section-label` в макете **не** встречается.
+
+**Правило:** новый визуальный паттерн в Figma = **новый variant** компонента (`fired`, `outlineDark`, `dotColor`, `labelVariant`), не переиспользование generic-стиля.
+
+## 2. Типографика заголовков
+
+`SectionHeader` с plain `title` (строка) **обязан** рендерить `<h2>` с `@include heading-xl` (48px Unbounded).
+
+`titleParts` → `AccentTitle` с `heading-lg` (40px). Не оставлять plain text без mixin — иначе наследуется Inter 16px.
+
+Переносы строк, bold, italic — **явно** в i18n (`breakBefore`, `noteLead`/`noteRest`, `<strong>`) + стили. Не полагаться на auto-wrap.
+
+## 3. Отступы секций
+
+| Элемент | Значение |
+|---------|----------|
+| `Section` | `padding-top` + `padding-bottom`: 44px (`$space-section`) |
+| Label → title (left) | 32px |
+| Label → title (center) | 44px |
+| `SectionHeader` → контент | 44px (`margin-bottom`) |
+
+В Figma соседние секции стыкуются без внешнего margin → межсекционный ритм = 44px снизу + 44px сверху.
+
+## 4. Ширины из variables — подключать в компонент
+
+Если токен есть (`$content-width-how-it-works-text: 665px`), использовать через prop `width` в `SectionHeader` или section-scoped class. Не оставлять дефолт 872px для center-заголовков.
+
+## 5. Таблицы и сетки
+
+- Font-size ячеек — из bbox текста в metadata (часто 18px, не 15px).
+- Колонки — **асимметричные** пропорции из metadata (`--comparison-columns`), не `1fr 1fr 1fr`.
+- Border-radius bordered-grid — `$radius-card-sm` (16px), не 12px.
+
+## 6. Dividers и borders
+
+- FAQ: `padding-bottom: 32px` → `border-bottom` → `margin-bottom: 32px` до следующего пункта (stride = 62 + 32 + 1 + 32 = 127px).
+- Dark UI (CTA): form / Telegram / footer — border `Neutral/700` `#404040`; сверять со `screenshot.png`, т.к. metadata не экспортирует stroke.
+
+## 7. Чеклист перед сдачей секции
+
+- [ ] Лейбл: grey **только** Competitors / Deliverables / HowItWorks / Program; иначе `labelVariant="accent"` (см. таблицу в §1)
+- [ ] Заголовок: Unbounded через mixin, не inherited Inter
+- [ ] Section padding top + bottom 44px
+- [ ] Цвета/variants сопоставлены с `variables.json`
+- [ ] Переносы строк и bold/italic заданы явно
+- [ ] Таблицы: font-size и column widths из metadata
+- [ ] Dividers/borders проверены на screenshot, не только gap в metadata
+- [ ] Dark-theme borders не забыты
+
+## Связь с другими правилами
+
+- **Поэтапная сверка всего лендинга** — [landing-figma-audit.md](../plans/landing-figma-audit.md) (фазы 0–21)
+- SVG и marquee — `figma-assets-layout.mdc`
+- Кэш и workflow — `figma-cache.mdc`, `development-workflow.mdc`

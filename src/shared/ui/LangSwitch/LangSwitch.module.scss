@@ -1,0 +1,55 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.switch {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	height: 36px;
+	padding: 4px 12px 4px 8px;
+	border-radius: $radius-pill;
+	background: $color-neutral-100;
+
+	@include respond-tablet {
+		min-height: 44px;
+		height: 44px;
+		padding-inline: 10px;
+	}
+}
+
+.active,
+.inactive {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 36px;
+	min-height: 28px;
+	border: none;
+	border-radius: $radius-pill;
+	font-family: $font-inter;
+	font-size: $text-tag;
+	font-weight: 500;
+	line-height: normal;
+	cursor: pointer;
+	background: transparent;
+	transition: color 0.2s;
+
+	@include respond-tablet {
+		min-height: 36px;
+	}
+}
+
+.active {
+	padding: 0 12px;
+	background: $color-white;
+	color: $color-neutral-800;
+}
+
+.inactive {
+	padding: 0;
+	color: $color-neutral-400;
+
+	&:hover {
+		color: $color-neutral-600;
+	}
+}

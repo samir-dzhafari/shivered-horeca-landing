@@ -1,0 +1,14 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.section {
+	@include full-bleed;
+
+	padding-top: $space-section;
+	padding-bottom: $space-section;
+
+	@include respond-mobile {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+}

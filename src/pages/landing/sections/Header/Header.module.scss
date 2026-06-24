@@ -1,0 +1,67 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as *;
+
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	height: $header-height;
+	background: $color-white;
+	border-bottom: 1px solid $color-neutral-200;
+
+	@include respond-mobile {
+		height: auto;
+	}
+}
+
+.inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	min-height: $header-height;
+	@include shell-bleed;
+
+	@include respond-mobile {
+		gap: 8px;
+		padding-block: 10px;
+	}
+}
+
+.logoWrap {
+	flex: 0 1 auto;
+	min-width: 0;
+}
+
+.actions {
+	display: flex;
+	flex-shrink: 0;
+	align-items: center;
+	gap: 24px;
+
+	@include respond-mobile {
+		gap: 8px;
+	}
+}
+
+.ctaFull {
+	@include respond-mobile {
+		display: none;
+	}
+}
+
+.ctaShort {
+	display: none;
+
+	@include respond-mobile {
+		display: inline;
+	}
+}
+
+.cta {
+	@include respond-tablet {
+		min-height: 44px;
+		padding-inline: 12px;
+		font-size: 13px;
+	}
+}

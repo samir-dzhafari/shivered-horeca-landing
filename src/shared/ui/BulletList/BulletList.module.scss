@@ -1,0 +1,24 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	list-style: none;
+}
+
+.item {
+	display: flex;
+	gap: 12px;
+	align-items: flex-start;
+	font-family: $font-inter;
+	font-size: $text-body-md;
+	line-height: 1.4;
+	color: $color-neutral-600;
+}
+
+.dot {
+	@include dot;
+	margin-top: 8px;
+}

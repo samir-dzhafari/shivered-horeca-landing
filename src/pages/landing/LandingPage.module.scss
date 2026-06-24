@@ -1,0 +1,14 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.page {
+	min-height: 100vh;
+	background: $color-white;
+	overflow-x: hidden;
+}
+
+.main {
+	max-width: $page-max-width;
+	margin-inline: auto;
+	@include page-padding;
+}
