@@ -7,6 +7,13 @@
 	gap: 12px;
 }
 
+.logoLink {
+	display: inline-flex;
+	flex-shrink: 0;
+	line-height: 0;
+	text-decoration: none;
+}
+
 .md {
 	.logoSheverev {
 		height: 13px;
@@ -47,6 +54,10 @@
 
 		.logoSheverev,
 		.logoHoreca {
+			flex: 0 0 100%;
+		}
+
+		.logoLink {
 			flex: 0 0 100%;
 		}
 
