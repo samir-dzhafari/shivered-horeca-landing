@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+import {assetUrl} from 'shared/lib/assetUrl';
+
 import styles from './Accordion.module.scss';
 
 export type AccordionItem = {
@@ -37,7 +39,7 @@ export const Accordion: React.FC<AccordionProps> = ({items, className}) => {
 								alt=""
 								className={styles.icon}
 								height={24}
-								src={isOpen ? '/assets/icons/faq-minus.svg' : '/assets/icons/faq-plus.svg'}
+								src={assetUrl(isOpen ? 'assets/icons/faq-minus.svg' : 'assets/icons/faq-plus.svg')}
 								width={24}
 							/>
 						</button>

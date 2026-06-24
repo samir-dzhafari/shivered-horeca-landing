@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {assetUrl} from 'shared/lib/assetUrl';
+
 import styles from './Button.module.scss';
 
 type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'outlineDark' | 'ghost';
@@ -39,7 +41,7 @@ export const Button: React.FC<ButtonProps> = ({
 					alt=""
 					className={styles.arrow}
 					height={34}
-					src="/assets/icons/arrow-right.svg"
+					src={assetUrl('assets/icons/arrow-right.svg')}
 					width={34}
 				/>
 			)}

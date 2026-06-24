@@ -5,8 +5,17 @@ import viteTsconfigPaths from 'vite-tsconfig-paths';
 
 export default ({mode}: {mode: string}) => {
 	const env = loadEnv(mode, process.cwd()) as unknown as Env;
+	const base = process.env.VITE_BASE_PATH ?? '/';
 
 	return defineConfig({
+		base,
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: `$asset-base: '${base}';`,
+				},
+			},
+		},
 		server: {
 			port: env.VITE_PORT ? parseInt(env.VITE_PORT) : 3000,
 		},

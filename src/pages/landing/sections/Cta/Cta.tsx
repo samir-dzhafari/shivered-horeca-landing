@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {assetUrl} from 'shared/lib/assetUrl';
+
 import {TELEGRAM_URL} from 'shared/config/env';
 import {useLandingContent} from 'shared/i18n';
 import {FullBleedSection} from 'shared/layout/FullBleedSection';
@@ -36,14 +38,14 @@ export const Cta: React.FC = () => {
 					<img
 						alt=""
 						className={styles.glowImage}
-						src="/assets/cta/glow-1.svg"
+						src={assetUrl('assets/cta/glow-1.svg')}
 					/>
 				</div>
 				<div className={styles.glowLayer2}>
 					<img
 						alt=""
 						className={styles.glowImage}
-						src="/assets/cta/glow-2.svg"
+						src={assetUrl('assets/cta/glow-2.svg')}
 					/>
 				</div>
 			</div>

@@ -47,19 +47,19 @@ export const HERO_TAGS = [
 ] as const;
 
 export const PARTNER_LOGOS = [
-	{src: '/assets/partners/partner-01.svg', alt: 'RG Brands'},
-	{src: '/assets/partners/partner-02.svg', alt: 'ВЕИП'},
-	{src: '/assets/partners/partner-03.svg', alt: 'Открытие'},
-	{src: '/assets/partners/partner-04.svg', alt: 'ВКонтакте'},
-	{src: '/assets/partners/partner-05.svg', alt: 'Хоум Банк'},
-	{src: '/assets/partners/partner-06.svg', alt: 'МТС'},
-	{src: '/assets/partners/partner-07.svg', alt: 'Red Mad Robot'},
-	{src: '/assets/partners/partner-08.svg', alt: 'Яндекс'},
-	{src: '/assets/partners/partner-09.svg', alt: 'RusLine'},
-	{src: '/assets/partners/partner-10.svg', alt: 'Pepsi'},
-	{src: '/assets/partners/partner-11.svg', alt: 'Сбер'},
-	{src: '/assets/partners/partner-12.svg', alt: 'KODE'},
-	{src: '/assets/partners/partner-13.svg', alt: 'СИБУР'},
+	{src: 'assets/partners/partner-01.svg', alt: 'RG Brands'},
+	{src: 'assets/partners/partner-02.svg', alt: 'ВЕИП'},
+	{src: 'assets/partners/partner-03.svg', alt: 'Открытие'},
+	{src: 'assets/partners/partner-04.svg', alt: 'ВКонтакте'},
+	{src: 'assets/partners/partner-05.svg', alt: 'Хоум Банк'},
+	{src: 'assets/partners/partner-06.svg', alt: 'МТС'},
+	{src: 'assets/partners/partner-07.svg', alt: 'Red Mad Robot'},
+	{src: 'assets/partners/partner-08.svg', alt: 'Яндекс'},
+	{src: 'assets/partners/partner-09.svg', alt: 'RusLine'},
+	{src: 'assets/partners/partner-10.svg', alt: 'Pepsi'},
+	{src: 'assets/partners/partner-11.svg', alt: 'Сбер'},
+	{src: 'assets/partners/partner-12.svg', alt: 'KODE'},
+	{src: 'assets/partners/partner-13.svg', alt: 'СИБУР'},
 ] as const;
 
 export const AUDIENCE_PAIN_POINTS = [

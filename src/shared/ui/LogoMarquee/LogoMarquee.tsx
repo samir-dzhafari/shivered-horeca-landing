@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {assetUrl} from 'shared/lib/assetUrl';
+
 import styles from './LogoMarquee.module.scss';
 
 export type LogoMarqueeItem = {
@@ -19,7 +21,7 @@ const renderLogos = (logos: readonly LogoMarqueeItem[], keyPrefix: string) =>
 			height={40}
 			key={`${keyPrefix}-${logo.src}`}
 			loading="lazy"
-			src={logo.src}
+			src={assetUrl(logo.src)}
 		/>
 	));
 

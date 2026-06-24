@@ -1,5 +1,7 @@
 import React, {useCallback, useEffect, useId, useRef, useState} from 'react';
 
+import {assetUrl} from 'shared/lib/assetUrl';
+
 import styles from './Select.module.scss';
 
 type SelectOption = {
@@ -146,7 +148,7 @@ export const Select = React.forwardRef<HTMLButtonElement, SelectProps>(
 						alt=""
 						className={[styles.chevron, open && styles.chevronOpen].filter(Boolean).join(' ')}
 						height={12}
-						src="/assets/icons/chevron-down.svg"
+						src={assetUrl('assets/icons/chevron-down.svg')}
 						width={19}
 					/>
 				</button>

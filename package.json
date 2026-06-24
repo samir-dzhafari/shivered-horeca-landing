@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:gh": "VITE_BASE_PATH=/shivered-horeca-landing/ npm run build",
+    "preview:gh": "VITE_BASE_PATH=/shivered-horeca-landing/ vite preview",
     "lint": "tsc --noEmit && eslint src --ext ts,tsx --report-unused-disable-directives --color --fix --max-warnings 0",
     "format": "prettier \"./src/**/*.{ts,tsx}\" --write",
     "test:e2e": "playwright test",

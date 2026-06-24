@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {assetUrl} from 'shared/lib/assetUrl';
+
 import styles from './Logo.module.scss';
 
 type LogoProps = {
@@ -10,7 +12,8 @@ type LogoProps = {
 };
 
 export const Logo: React.FC<LogoProps> = ({size = 'md', theme = 'light', layout = 'inline', className}) => {
-	const horecaSrc = theme === 'dark' ? '/assets/logo/horeca-dark.svg' : '/assets/logo/horeca.svg';
+	const horecaSrc =
+		theme === 'dark' ? assetUrl('assets/logo/horeca-dark.svg') : assetUrl('assets/logo/horeca.svg');
 
 	return (
 		<a
@@ -28,7 +31,7 @@ export const Logo: React.FC<LogoProps> = ({size = 'md', theme = 'light', layout 
 			<img
 				alt="Sheverev"
 				className={styles.logoSheverev}
-				src="/assets/logo/sheverev.svg"
+				src={assetUrl('assets/logo/sheverev.svg')}
 			/>
 			<span className={styles.logoSlash}>/</span>
 			<img
