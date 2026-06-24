@@ -33,6 +33,7 @@ export const Program: React.FC = () => {
 					label={program.label}
 					labelVariant="accent"
 					titleParts={program.titleParts}
+					titleSize="xl"
 					width="program"
 				/>
 

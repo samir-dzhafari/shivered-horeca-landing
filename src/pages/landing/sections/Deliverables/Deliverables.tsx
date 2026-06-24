@@ -18,6 +18,7 @@ export const Deliverables: React.FC = () => {
 					label={deliverables.label}
 					labelVariant="accent"
 					titleParts={deliverables.titleParts}
+					titleSize="xl"
 				/>
 
 				<div className={styles.grid}>

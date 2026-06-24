@@ -5,6 +5,11 @@
 	padding-top: $space-section;
 	padding-bottom: $space-section;
 
+	@include respond-tablet {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
 	@include respond-mobile {
 		padding-top: 32px;
 		padding-bottom: 32px;

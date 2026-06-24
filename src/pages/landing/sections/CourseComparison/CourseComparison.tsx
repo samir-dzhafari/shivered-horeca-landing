@@ -19,6 +19,7 @@ export const CourseComparison: React.FC = () => {
 					label={courseComparison.label}
 					labelVariant="accent"
 					titleParts={courseComparison.titleParts}
+					titleSize="xl"
 				/>
 
 				<ComparisonTable

@@ -7,6 +7,7 @@ import {Badge} from 'shared/ui/Badge';
 import {Button} from 'shared/ui/Button';
 import {FormField} from 'shared/ui/FormField';
 import {Input} from 'shared/ui/Input';
+import {PhoneInput} from 'shared/ui/PhoneInput';
 import {Select} from 'shared/ui/Select';
 
 import {useRegistrationForm} from '../../hooks/useRegistrationForm';
@@ -31,16 +32,20 @@ export const Cta: React.FC = () => {
 				aria-hidden
 				className={styles.glows}
 			>
-				<img
-					alt=""
-					className={styles.glow1}
-					src="/assets/cta/glow-1.svg"
-				/>
-				<img
-					alt=""
-					className={styles.glow2}
-					src="/assets/cta/glow-2.svg"
-				/>
+				<div className={styles.glowLayer1}>
+					<img
+						alt=""
+						className={styles.glowImage}
+						src="/assets/cta/glow-1.svg"
+					/>
+				</div>
+				<div className={styles.glowLayer2}>
+					<img
+						alt=""
+						className={styles.glowImage}
+						src="/assets/cta/glow-2.svg"
+					/>
+				</div>
 			</div>
 
 			<div className={styles.inner}>
@@ -79,7 +84,10 @@ export const Cta: React.FC = () => {
 						onSubmit={handleSubmit}
 					>
 						<div className={styles.row}>
-							<FormField label={cta.form.name}>
+							<FormField
+								label={cta.form.name}
+								labelClassName={styles.formLabel}
+							>
 								<Input
 									error={errors.name}
 									name="name"
@@ -88,8 +96,11 @@ export const Cta: React.FC = () => {
 									onChange={(e) => setField('name', e.target.value)}
 								/>
 							</FormField>
-							<FormField label={cta.form.phone}>
-								<Input
+							<FormField
+								label={cta.form.phone}
+								labelClassName={styles.formLabel}
+							>
+								<PhoneInput
 									error={errors.phone}
 									name="phone"
 									placeholder={cta.form.phonePlaceholder}
@@ -99,7 +110,10 @@ export const Cta: React.FC = () => {
 							</FormField>
 						</div>
 
-						<FormField label={cta.form.venue}>
+						<FormField
+							label={cta.form.venue}
+							labelClassName={styles.formLabel}
+						>
 							<Input
 								error={errors.venue}
 								name="venue"
@@ -109,7 +123,10 @@ export const Cta: React.FC = () => {
 							/>
 						</FormField>
 
-						<FormField label={cta.form.payment}>
+						<FormField
+							label={cta.form.payment}
+							labelClassName={styles.formLabel}
+						>
 							<Select
 								name="paymentType"
 								options={paymentOptions}

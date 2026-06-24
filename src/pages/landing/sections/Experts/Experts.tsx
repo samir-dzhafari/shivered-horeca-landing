@@ -37,6 +37,8 @@ export const Experts: React.FC = () => {
 						label={experts.label}
 						labelVariant="accent"
 						titleParts={experts.titleParts}
+						titleSize="xl"
+						width="experts"
 					/>
 
 					{experts.items.map((expert, index) => {

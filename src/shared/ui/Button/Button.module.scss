@@ -60,7 +60,7 @@
 }
 
 .outlineDark {
-	@include glass-dark;
+	@include glass-dark-bordered;
 	color: $color-white;
 	font-weight: 400;
 }

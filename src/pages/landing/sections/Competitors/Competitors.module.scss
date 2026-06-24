@@ -6,22 +6,10 @@
 	flex-direction: column;
 	gap: 32px;
 	max-width: $content-width-list;
+	padding-top: 32px;
 
 	@include respond-mobile {
 		gap: 24px;
-	}
-}
-
-.item {
-	padding-top: 32px;
-	border-top: 1px solid $color-neutral-200;
-
-	&:first-child {
-		border-top: none;
-		padding-top: 0;
-	}
-
-	@include respond-mobile {
 		padding-top: 24px;
 	}
 }

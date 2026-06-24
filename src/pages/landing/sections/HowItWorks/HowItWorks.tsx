@@ -19,6 +19,7 @@ export const HowItWorks: React.FC = () => {
 						label={howItWorks.label}
 						labelVariant="accent"
 						titleParts={howItWorks.titleParts}
+						titleSize="xl"
 					/>
 
 					<div className={styles.highlight}>

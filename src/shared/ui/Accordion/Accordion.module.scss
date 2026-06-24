@@ -8,16 +8,15 @@
 }
 
 .item {
-	padding-bottom: 32px;
 	border-bottom: 1px solid $color-neutral-200;
 	margin-bottom: 32px;
 
 	&:last-child {
 		margin-bottom: 0;
+		border-bottom: none;
 	}
 
 	@include respond-mobile {
-		padding-bottom: 24px;
 		margin-bottom: 24px;
 	}
 }
@@ -30,7 +29,7 @@
 	min-height: 62px;
 	gap: 24px;
 	@include item-title;
-	font-weight: 500;
+	font-weight: 600;
 	text-align: left;
 
 	@include respond-mobile {

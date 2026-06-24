@@ -124,10 +124,12 @@ $row-card-width: 399px;
 }
 
 .cta {
-	@include respond-tablet {
+	width: fit-content;
+	max-width: 297px;
+
+	@include respond-mobile {
 		width: 100%;
 		max-width: 100%;
-		height: auto;
 		min-height: $button-height;
 		padding-block: 12px;
 		white-space: normal;

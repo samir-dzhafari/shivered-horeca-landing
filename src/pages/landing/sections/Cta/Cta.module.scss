@@ -7,46 +7,81 @@
 	overflow: hidden;
 }
 
-.glows {
-	position: absolute;
-	inset: 0;
-	overflow: hidden;
-	pointer-events: none;
-}
-
-.glow1,
-.glow2 {
-	position: absolute;
-	width: min(1137px, 59.2%);
-	height: auto;
-
-	@include respond-mobile {
-		width: 600px;
-		opacity: 0.5;
-	}
-}
-
-// Figma 1:671 at page x=-260. Glow groups inside intro 1:672 (x=609.5).
+// Figma 1:671 — glow groups positioned relative to intro frame 1:672 (x=609.5, y=44).
 $cta-figma-width: 1920;
 $cta-figma-height: 938;
 $cta-intro-x: 609.5;
 $cta-intro-y: 44;
+$cta-glow-rotate: -167.04deg;
+$cta-glow-layer-size: 1082.52px;
 
-.glow1 {
-	top: calc((#{$cta-intro-y} + 11.51) / #{$cta-figma-height} * 100%);
-	left: calc((1575.29 - #{$cta-intro-x}) / #{$cta-figma-width} * 100%);
-	opacity: 0.8;
+.glows {
+	position: absolute;
+	inset: 0;
+	overflow: visible;
+	pointer-events: none;
+	z-index: 0;
 }
 
-.glow2 {
-	top: calc((#{$cta-intro-y} + 50.56) / #{$cta-figma-height} * 100%);
-	left: calc((1521.02 - #{$cta-intro-x}) / #{$cta-figma-width} * 100%);
+.glowLayer1,
+.glowLayer2 {
+	position: absolute;
+	width: $cta-glow-layer-size;
+	height: 1079.91px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: rotate($cta-glow-rotate) scaleY(-1);
+	transform-origin: center center;
+
+	@include respond-tablet {
+		width: min(900px, 75vw);
+		height: auto;
+		aspect-ratio: 1082.52 / 1079.91;
+	}
+
+	@include respond-mobile {
+		width: min(640px, 140vw);
+	}
+}
+
+.glowImage {
+	display: block;
+	width: 83.5%;
+	height: auto;
+	max-width: none;
+}
+
+// Figma 1:674 — base blue/red bloom
+.glowLayer1 {
+	left: calc((#{$cta-intro-x} + 492.77) / #{$cta-figma-width} * 100%);
+	top: calc((#{$cta-intro-y} - 191.11) / #{$cta-figma-height} * 100%);
+	opacity: 0.8;
+
+	@include respond-mobile {
+		left: 35%;
+		top: -18%;
+		opacity: 0.65;
+	}
+}
+
+// Figma 1:677 — magenta highlight with color-dodge
+.glowLayer2 {
+	left: calc((#{$cta-intro-x} + 438.5) / #{$cta-figma-width} * 100%);
+	top: calc((#{$cta-intro-y} - 152.06) / #{$cta-figma-height} * 100%);
 	mix-blend-mode: color-dodge;
-	opacity: 0.6;
+	opacity: 1;
+
+	@include respond-mobile {
+		left: 28%;
+		top: -12%;
+		opacity: 0.85;
+	}
 }
 
 .inner {
 	position: relative;
+	z-index: 1;
 	width: 100%;
 	margin-inline: auto;
 	padding-inline: $page-padding-mobile;
@@ -137,7 +172,7 @@ $cta-intro-y: 44;
 	max-width: $content-width-cta;
 	padding: 32px;
 	border-radius: $radius-card;
-	@include glass-dark;
+	@include glass-dark-bordered;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -172,6 +207,11 @@ $cta-intro-y: 44;
 	max-width: 444px;
 }
 
+.formLabel {
+	font-size: 15px;
+	line-height: 21px;
+}
+
 .errorMessage {
 	font-size: $text-tag;
 	color: $color-error;
@@ -183,7 +223,7 @@ $cta-intro-y: 44;
 	max-width: $content-width-cta;
 	padding: 32px;
 	border-radius: $radius-card;
-	@include glass-dark;
+	@include glass-dark-bordered;
 	text-align: center;
 	color: $color-white;
 

@@ -22,11 +22,6 @@
 	align-items: center;
 	gap: $space-partners;
 	padding-right: $space-partners;
-
-	@include respond-mobile {
-		gap: 32px;
-		padding-right: 32px;
-	}
 }
 
 .logo {

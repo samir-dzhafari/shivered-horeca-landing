@@ -45,7 +45,7 @@
 }
 
 .stepTitle {
-	@include card-title-md;
+	@include item-title;
 	margin: 0;
 }
 

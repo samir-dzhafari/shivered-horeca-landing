@@ -95,6 +95,10 @@
 
 .width_experts {
 	max-width: $content-width-experts;
+
+	.titleWrap {
+		max-width: $content-width-experts-title;
+	}
 }
 
 .width_audience {

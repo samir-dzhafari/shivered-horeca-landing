@@ -28,14 +28,19 @@ export const Hero: React.FC = () => {
 				<p className={styles.subtitle}>{hero.subtitle}</p>
 
 				<div className={styles.tags}>
-					{hero.tags.map((tag) => (
-						<PillTag
-							key={tag}
-							withDot
-						>
-							{tag}
-						</PillTag>
-					))}
+					<div className={styles.tagsRow1}>
+						{hero.tags.slice(0, 2).map((tag) => (
+							<PillTag
+								key={tag}
+								withDot
+							>
+								{tag}
+							</PillTag>
+						))}
+					</div>
+					<div className={styles.tagsRow2}>
+						<PillTag withDot>{hero.tags[2]}</PillTag>
+					</div>
 				</div>
 
 				<div className={styles.actions}>

@@ -67,7 +67,7 @@
 }
 
 .cardTitle {
-	@include card-title-md;
+	@include item-title;
 	margin: 16px 0 0;
 }
 

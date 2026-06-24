@@ -1,7 +1,8 @@
 import {useCallback, useState} from 'react';
 
 import {FORM_ENDPOINT} from 'shared/config/env';
-import {useLandingContent} from 'shared/i18n';
+import {useI18n, useLandingContent} from 'shared/i18n';
+import {isPhoneComplete} from 'shared/lib/phoneMask';
 
 export type PaymentType = 'individual' | 'legal';
 
@@ -25,6 +26,7 @@ const initialData: RegistrationFormData = {
 
 export const useRegistrationForm = () => {
 	const {cta} = useLandingContent();
+	const {locale} = useI18n();
 	const [data, setData] = useState<RegistrationFormData>(initialData);
 	const [errors, setErrors] = useState<FormErrors>({});
 	const [status, setStatus] = useState<FormStatus>('idle');
@@ -41,7 +43,7 @@ export const useRegistrationForm = () => {
 
 			if (!formData.phone.trim()) {
 				validationErrors.phone = messages.phone;
-			} else if (formData.phone.trim().length < 5) {
+			} else if (!isPhoneComplete(formData.phone, locale)) {
 				validationErrors.phone = messages.phoneShort;
 			}
 
@@ -51,7 +53,7 @@ export const useRegistrationForm = () => {
 
 			return validationErrors;
 		},
-		[cta.form],
+		[cta.form, locale],
 	);
 
 	const setField = useCallback(<K extends keyof RegistrationFormData>(field: K, value: RegistrationFormData[K]) => {
