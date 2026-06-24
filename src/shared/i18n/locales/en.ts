@@ -312,10 +312,8 @@ export const en: LandingContent = {
 	courseComparison: {
 		label: 'Comparison',
 		titleParts: [
-			{text: 'Others teach you to '},
-			{text: 'use AI.', accent: true},
-			{text: 'We '},
-			{text: 'teach you to build it.', accent: true, breakBefore: true},
+			{text: 'Others teach you to use AI.'},
+			{text: 'We teach you to build it.', accent: true, breakBefore: true},
 		],
 		otherHeader: 'Other courses',
 		oursHeader: 'Our workshop',

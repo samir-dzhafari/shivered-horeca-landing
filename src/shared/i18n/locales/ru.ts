@@ -150,10 +150,8 @@ export const ru: LandingContent = {
 	courseComparison: {
 		label: 'Сравнение',
 		titleParts: [
-			{text: 'Другие учат '},
-			{text: 'работать с AI.', accent: true},
-			{text: 'Мы '},
-			{text: 'учим его строить.', accent: true, breakBefore: true},
+			{text: 'Другие учат работать с AI.'},
+			{text: 'Мы учим его строить.', accent: true, breakBefore: true},
 		],
 		otherHeader: 'Другие курсы по AI',
 		oursHeader: 'Наш воркшоп',
